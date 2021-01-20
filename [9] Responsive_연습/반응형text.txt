@@ -1,0 +1,32 @@
+vertical-align: top = 수직정렬
+box-sezing
+display block 블록요소 inline 글자요소 inline-block 글자블록요소
+
+자식요소가 float 적용되면
+부모에선 자식들을 인식못한다.
+그래서 float가 끝나는 곳에 div style= clear:both;를 준다
+또는 부모요소에 after를 준다
+
+.container::after 
+content: '  ';  <-컨텐츠에 코멘트
+display: block;
+clear: both; 
+hiehgt: 0;
+visibility:height;
+혹시 공간을 차지할지 몰라서 height를 0으로 설정해준다
+이렇게
+
+미디어쿼리 -> 반응형웹할때 쓰는 단어
+
+모바일에서는 viewport 를 설정해주어야한다
+width=device-width, initial-scale=1.0,maximum-scale=1.0
+
+모바일 320~767px
+타블렛or랩탑768~1023or1199px
+PC 1200or1024px이상
+
+
+태블릿, 모바일 css 각자따로
+
+tablet media="all and (max-width:1120px)"
+moblie media="all and (max-width:960px)"

@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+
+
+
+html {font-size:20px;}
+body {font-size:1rem;}
+
+/*그대로 쓰는건 삭제 , 다른것만 바꿔준다. 바꾸는건 100% 또는 초기화*/
+header > div {
+    width: 100%;
+    margin: 0;
+}
+
+header > div h1 {
+    padding: 1.1rem 0 1.2rem 1rem;
+}
+
+
+
+
