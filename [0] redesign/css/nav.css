@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+
+.nav-wrap {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    padding-left: 50px;
+}
+
+.nav-icons {
+    padding-right: 50px;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu > li {
+    padding: 27px 30px;
+    cursor: pointer;
+
+}
+
+.nav-menu li a {
+    color: #252525;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.submenu {
+    position: absolute;
+    top: 70px;
+    z-index: 6;
+}
+
+.submenu li {
+    padding: 17px 10px;
+    display: inline-block;
+}
+
+.submenu li:first-child {
+    padding-left: 0;
+}
+
+.submenu li a {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #252525;
+}
+
+.nav-icons {
+    display: flex;
+}
+
+.nav-icons li {
+    padding: 5px 15px;
+}
+
+/* 하위 메뉴 background */
+.n_bg {
+    position: fixed;
+    left: 0;
+    top: 70px;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 5;
+}
+
+/*제이쿼리에서 추가된 태그*/
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .nav-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100vw;
+        height: 100vh;
+        
+    }
+        
+    .nav-logo {
+        width:100%;
+        height:70px;
+        text-align: center;
+        padding:0;
+        position:relative;
+    }  
+    
+    .nav-logo img{
+        width:100px;
+        height:auto;
+        position: absolute;
+        top:37%;
+        left:40%;
+    } 
+    
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height:100vh;
+        padding-top: 50px;
+        background-color:yellow;
+    }
+
+    .nav-menu li {
+        width: 100%;
+    	text-align: center;
+        line-height:80px;
+        padding:0;
+        height:80px;
+        font-size:1.3em;
+    }
+
+    .submenu li{
+        display: none;
+    }
+    
+    
+    .nav-icons {
+        position: absolute;
+        padding:0;
+        right:5px;
+        top:12.5px;
+    }
+    
+    .nav-icons li:nth-child(2){
+        display: none;
+    }
+
+    .n_bg {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    
+}

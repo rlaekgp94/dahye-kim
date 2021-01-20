@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트 기초</title>
+</head>
+<body>
+    
+
+    <h1>java script</h1>
+    
+    <script>
+        
+        // 기본 데이터 타입
+        // 숫자
+        // 문자열
+        // undefined, null, NaN 값이 없거나 정의되어있지 않는 애들.
+        // boolean (true, false)
+        
+        
+        
+//        *배열*
+        
+//        var b = '비';
+//        var a = [1, 2, b, 4, 5, 10000]; //index속성 0부터 시작한다
+//        
+//        console.log( a );
+//        
+//        a.push('하하하'); //push 데이터를 추가하는 기능
+//        console.log( a );
+//        
+//        var a = [];
+//        
+//        a[0] = 111;
+//        a[1] = 222;
+//        
+//        a.push(1);
+//        a.push(3);
+        
+//        console.log(a);
+        
+        
+//        *산술연산자*
+        
+//        var a = 100;
+//        var b = 200;
+//        console.log( a * b );
+//        console.log( a / b );
+//        console.log( a - b );
+        
+//        
+//        *문자열 + 숫자열*
+//        var message1 = '안녕? 내 이름은 ';
+//        var message2 = ' 일분이, 나이는 ';
+//        var age = 7;
+//        
+//        
+//        console.log( message1 + message2 + age + '살 이야.' );
+//        
+        
+//        *축약형 대입연사자*
+        
+//        var a = 1;
+//        a = a + 1;
+//        a += 1;
+        
+//        a++; *증감연산자*
+//        ++a;
+//        
+        
+//        console.log(a++); //처음엔 a를 그대로 출력, 연산의 결과는 그다음 열에서부터 출력된다.        
+//        console.log(a);
+//        console.log(++a); //연산의 결과가 지금이 순간에 나길 원한다면 앞에 ++을 기입.
+        
+//        *비교연산자*
+        
+//        var a = 100;
+//        var b = '100';
+//        console.log( a < b );
+//        console.log( a <= b );
+//        console.log( a == b ); 대충 검열
+//        console.log( a === b ); 데이터 타입까지 엄격하게 검열한다 !==도 같음.
+        
+        
+//        *논리연산자*
+//        그리고(&&), 또는(||)
+//        var a = 100;
+//        var b = 200;
+//        
+//        console.log( a < 200 && a == 100 ); 둘다 맞으므로 true
+//        console.log( a > 200 && a == 100 ); 하나가 틀리므로 false
+//        console.log( a > 200 || a == 100 ); 둘중 하나가 맞으므로 true
+        
+//        *부정연산자*
+//        console.log( !(100 > 200) );
+//        ! not 연산자, 결과가 반대로 전환
+        
+        
+        
+//        *조건문*
+//        
+//        var age = 10;
+//        
+////        if문은 ()의 결과가 참일때에만 출력된다. 아닐때엔 실행이 안된다. 조건식을 만족할때엔 코드1을 실행
+//        if (age > 18) {
+//            console.log('성인');
+//        } else { //else if문의 조건식을 만족하지 않을때엔 코드2를 실행
+//            console.log('미성년자');
+//        }
+//        
+//        **if문** (합리적이고 간결하게 만드는게 중요)
+//        
+//        var age = 1;
+//        if ( age > 14 ) {
+//            console.log('성인');
+//        } else if ( age > 13 ) {
+//            console.log('청소년');
+//        } else if ( age > 7 ) {
+//            console.log('어린이');
+//        } else {
+//            console.log('유아');
+//        }
+        
+        
+//        *반복문*
+        
+        
+//        **for문** '~동안' * 관례적으로 for문을 쓸때엔 i , j , k를 쓴다
+//        
+//        for ( var i = 0; /*초기(값)조건*/ i < 10; /*조건(식)체크*/ i++ /*조건변경(증감식)*/) {
+//            
+//            console.log(i);
+//            
+//        }
+//        
+//        var movies = ['어벤져스', '오펀', '강시', '나 홀로 집에', '내부자들'];
+//        
+//        for ( var i = 0; i < 5; i++ ) {
+//            
+//            console.log( movies[i] );
+//            
+//        }
+        
+//        console.log( movies[0] );
+//        console.log( movies[1] );
+//        console.log( movies[2] );
+//        console.log( movies[3] );
+//        console.log( movies[4] );
+        
+        
+        
+//        
+//        var movies = ['극한직업', '어벤져스', '오펀', '강시', '나 홀로 집에', '내부자들'];
+//        
+//        for ( var i = 0; i < movies.length; i++ ) { //length을 쓰면 좀더 잘한 코딩이된다, 수정이 필요없음.
+//            
+////            console.log( movies[i] );
+//            
+//        }
+//        
+//        console.log( movies [ movies.length - 1 ] ); //length에 1을 빼면 index 속성으로 마지막 배열이 호출됨.
+//        
+        
+    </script>
+    
+    
+<!-- 
+   
+   
+   변수 : 데이터를 담는 공간,그릇. ex1) 최종적으로 a의 값은 마지막에 넣은 값이된다.
+   = : (등호) 우변에 있는 값을 좌변쪽에 대입한다. 값을 할당. 넣어준다.
+   
+   " ' ' " = 부호 앞에 역슬래쉬 쓰면 같은 부호 중복가능 ex) /" ~ /"
+   
+   
+   
+   
+   -->
+    
+<!--
+   script를 body마지막에 넣으면 브라우저가 html 문서를 로드를 할때에
+   위에서부터 순서대로 읽는다.
+   로딩이 늦어지면 script를 먼저 출력해야하기때문에 아무것도 안뜨게 된다.
+   script가 head안에 있을때보다 빠른척!을 할수있다. 실제로 빠른건 아니고. 빠른척.
+   
+   jquery로 document.ready를 쓸때에는 이 상황에선 쓸모없게 된다.
+   같은말로 로드이벤트도 쓸모가 없어진다.
+-->
+</body>
+</html>
