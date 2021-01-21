@@ -1,79 +1,149 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
-    <title>print bakery-redesign0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edeg">
+    <meta name="format-detection" content="telephone=no">
+    <title>Print bakery version.1</title>
     <link rel="stylesheet" href="css/index_layout.css">
     <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
     <script src="js/nav.js"></script>
 </head>
+
 <body>
-    
+
     <header>
-        
         <nav class="nav-wrap">
-           
-            <div class="nav-logo">
-                <h1><a href="index.html"><img src="image/logo/logo.png" alt="상단로고"></a></h1>
-            </div>
-            
-                 <ul class="nav-menu">
-                     <li>
-                        <a href="about.html">ABOUT</a>
-                         <ul class="submenu">
-                             <li><a href="about.html">기업소개</a></li>
-                             <li><a href="about.html">오시는길</a></li>
-                             <li><a href="about.html">매장위치</a></li>
-                         </ul>
-                     </li>
-                                          
-                     <li><a href="store.html">STORE</a>
-                         <ul class="submenu">
-                             <li><a href="store.html">select</a></li>
-                             <li><a href="store.html">limited edition</a></li>
-                             <li><a href="store.html">original</a></li>
-                             <li><a href="store.html">art poster</a></li>
-                             <li><a href="store.html">goods</a></li>
-                         </ul>
-                     </li>
-                     
-                     <li><a href="artist.html">ARTIST</a>
-                         <ul class="submenu">
-                             <li><a href="artist.html">이달의 작가</a></li>
-                             <li><a href="artist.html">국내 작가</a></li>
-                             <li><a href="artist.html">국외 작가</a></li>
-                         </ul>
-                     </li>
-                     
-                     <li><a href="promotion.html">PROMOTION</a>
-                         <ul class="submenu">
-                             <li><a href="promotion.html">최신 프로모션</a></li>
-                             <li><a href="promotion.html">지난 프로모션</a></li>
-                         </ul>
-                     </li>
-                     
-                     <li><a href="business.html">BUSINESS</a>
-                         <ul class="submenu">
-                             <li><a href="promotion.html">Copyright</a></li>
-                             <li><a href="promotion.html">Art Consulting</a></li>
-                             <li><a href="promotion.html">Artist Management</a></li>
-                             <li><a href="promotion.html">Exhibition</a></li>
-                         </ul>
-                     </li>
-                     
-                 </ul><!--nav-menu-->  
-            
-           
-                
-                <ul class="nav-icons">
-                    <li><a href="login.html"><img src="image/icons/cart.png" alt="cart-icons" width="25" height="25"></a></li>
-                    <li><a href="login.html"><img src="image/icons/user.png" alt="user-icons" width="25" height="25"></a></li>
-                </ul><!--nav-icons-->
-                
-            
-        </nav><!--nav-wrap-->
-        
+            <div class="total"><a href="#a"><img src="image/icons/menu.png" alt="menu-icons" width="25" height="25"></a></div>
+
+            <h1 class="nav-logo"><a href="index.html"><img src="image/logo/logo.png" alt="상단로고"></a></h1>
+
+            <ul class="nav-menu">
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+
+                <li>
+                    <a href="store.html">STORE</a>
+                </li>
+
+                <li>
+                    <a href="artist.html">ARTIST</a>
+                </li>
+
+                <li>
+                    <a href="promotion.html">PROMOTION</a>
+                </li>
+
+                <li>
+                    <a href="business.html">BUSINESS</a>
+                </li>
+
+            </ul>
+            <!--nav-menu-->
+
+            <ul class="nav-icons">
+                <li><a href="login.html"><img src="image/icons/cart.png" alt="cart-icons" width="25" height="25"></a></li>
+                <li><a href="login.html"><img src="image/icons/heart.png" alt="heart-icons" width="25" height="25"></a></li>
+            </ul>
+            <!--nav-icons-->
+
+        </nav>
+        <!--nav-wrap-->
     </header>
-    
-</body>
-</html>
+
+
+    <input type="checkbox" id="menuicon">
+    <label for="menuicon" class="menuicon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <p class="fixed-btn top-btn"><img src="image/icons/top.png" alt="맨위로" width="25" height="25"></p>
+
+    <div class="sidebar">
+        <div class="side-nav">
+        <h2>LOGIN<em></em></h2>
+            <div class="title">
+                
+                  <input type="radio" name="accordion" id="tit1">
+                  <label for="tit1">주문 &#47; 배송<em></em></label>
+                   <div>
+                    <ul>
+                        <li><a href="#a">주문내역</a></li>
+                        <li><a href="#a">취소 &#47; 반품 &#47; 교환</a></li>
+                        <li><a href="#a">배송 주소록</a></li>
+                    </ul>
+                    </div>
+                
+                <input type="radio" name="accordion" id="tit2">
+                  <label for="tit2">커뮤니티<em></em></label>
+                   <div>
+                    <ul>
+                        <li><a href="#a">공지사항</a></li>
+                        <li><a href="#a">REVIEW</a></li>
+                        <li><a href="#a">상품 Q&amp;A</a></li>
+                        <li><a href="#a">FAQ</a></li>
+                    </ul>
+                    </div>
+                
+                    <input type="radio" name="accordion" id="tit3">
+                  <label for="tit3">쿠폰 &#47; 적립금<em></em></label>
+                   <div>
+                    <ul>
+                        <li><a href="#a">쿠폰 &#40;0개&#41;</a></li>
+                        <li><a href="#a">적립금 &#40;0원&#41;</a></li>
+                        <li><a href="#a">예치금</a></li>
+                    </ul>
+                    </div>
+                
+                  <input type="radio" name="accordion" id="tit4">
+                  <label for="tit4">고객지원센터<em></em></label>
+                   <div>
+                    <ul>
+                        <li><a href="#a">1&#58;1 맞춤상담</a></li>
+                        <li><a href="#a">A&#47;S게시판</a></li>
+                        <li><a href="#a">교환 및 반품</a></li>
+                        <li><a href="#a">이용안내</a></li>
+                        <li><a href="#a">회원혜택</a></li>
+                    </ul>
+                    </div>
+            </div>
+
+            <h2 class="cs">CS CENTER<em></em></h2>
+            <div class="cs-tell">
+            
+            <p>
+            <span>1599-3403</span><br>
+            MON-FRI 10AM - 5PM<br>
+            LUNCH 12PM - 1PM<br>
+            SAT, SUN, HOLIDAY OFF</p></div>
+            
+            <div class="sns-btn">
+                <ul>
+                    <li><a href="#a"><img src="image/icons/be.png" alt="비헨스"></a></li>
+                    <li><a href="#a"><img src="image/icons/face.png" alt="페이스북"></a></li>
+                    <li><a href="#a"><img src="image/icons/inst.png" alt="인스타그램"></a></li>
+                    <li><a href="#a"><img src="image/icons/twt.png" alt="트위터"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <p class="fixed-btn search-btn"><img src="image/icons/search.png" alt="검색" width="25" height="25"></p>
+
+    <div class="banner">
+
+    </div>
+
+    <div class="content">
+
+    </div>
+
+
+
+</body></html>

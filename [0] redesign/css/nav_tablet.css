@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+
+.nav-logo {
+    padding: 0.3rem 0 0 1.5rem;
+}
+
+.nav-icons {
+    padding-right: 1.5rem;
+}
+
+

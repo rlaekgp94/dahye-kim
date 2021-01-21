@@ -30,3 +30,98 @@ PC 1200or1024px이상
 
 tablet media="all and (max-width:1120px)"
 moblie media="all and (max-width:960px)"
+
+
+요소를 감싸는 div에
+
+-----------------------------display : flex;---------------------------------
+
+디폴트는 블럭마다 inline처럼 width값을 가지고있다.
+
+flex-direction: row (기본값) 가로정렬
+	      row-reverse 가로정렬이긴한데 right에 붙음
+flex-direction: columm 세로정렬
+	      columm-reverse 세로정렬인데 right에 붙음
+
+flex-wrap: nowrap; (기본값)
+컨테이너가 아이템폭보다 좁아질때 어떻게 해야할지 정하는것
+	wrap 아이템마다 떨어지게됨
+	wrap-reverse 순서가 바뀌면서 떨어짐
+
+justify-content: flex-start; (기본값) 처음에 정렬 <수평>
+	flex-end 끝에 정렬
+	center 가운데에 정렬
+	space-between 양끝 컨텐츠가 여백없이 붙고 사이에 여백을 준다.
+	space-around 비트윈과 비슷하나,양끝 아이템에도 여백을 준다.
+
+align-items : stretch; (기본값)  <수직>
+	flex-start 위로 붙음
+	flex-end 아래로 붙음
+	center 가운데로 고정
+
+align-content: flex-start; 
+	flex-end
+	center
+	space-betwwn
+	space-around
+(flex-wrap :wrap; 인 상태여야 설정가능)
+
+align-self: flex-start; 좌쪽 꼭지점 고정
+	center 가운데 고정
+	flex-end 우쪽 꼭지점 고정 
+
+
+flex-grow: 1; 각각 비율이 얼마나 줄건지 설정 
+(컨텐츠사이즈가 아니라 여백만 설정이 가능)
+
+flex-basis: auto; (기본값) ->  보통은 0으로 셋팅
+
+flex-shrink: 1; -> 축약형 flex:1; 
+축약형으로 설정할 경우 basis가 자동으로 0으로 셋팅된다.
+*flex가 숫자로 설정되어있을때 그 컨텐츠만 가로로 늘어난다*
+
+order : 2; 숫자에 따라 순서가 바뀜 /*유용*/
+
+----------------------------display: grid;------------------------------
+
+grid-template-columns: 40% 60%; <- 4:6비율 / %를 쓰면 가로스크롤발생 여백생김
+= 같은것
+grid-template-columns: 4fr 6fr <-이걸더 많이쓴다
+
+grid-template-columns: repeat (3, 1fr); 컨텐츠 1을 3번(가로) 반복한다.
+=같은것
+grid-template-columns:  1fr 1fr 1fr;
+
+grid-column: 1/4; 좌측 1그리드에서 4그리드까지 꽉차게해준다 ( nth-child로 지정 )
+	     3; 3번째 그리드로 이동
+
+grid-row: 2/4; 우측 2그리드에서 4그리드까지 꽉차게해준다
+
+grid-gap: 1rem; 여백
+
+gird-auto-rows : 200px; 공통적으로 height값을 주는것.
+gird-auto-rows: minmax(200px, auto); 
+--위와 같지만 컨텐츠내용물에 맞춰 유동적으로 height값을 준다.--
+
+grid-template-columns: 200px 1fr; (좌만 200px 고정 나머지 1fr은 유동적)
+
+justify-items: start; 각칸에서 왼쪽정렬
+	center; 각칸에서 가운데정렬
+	end; 각칸에서 오른쪽정렬
+
+align-items: start; 각칸에서 위쪽정렬
+	center; 각칸에서 가운데정렬
+	end; 각칸에서 아래쪽정렬
+
+--각칸안에서 정렬--
+justify-self:
+align-self:
+start,center,end
+
+
+
+
+
+
+
+
