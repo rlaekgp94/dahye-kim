@@ -4,10 +4,11 @@ html {
     overflow-x: hidden;
 }
 
+/*배너이미지*/
 .banner {
     width:100vw;
     height:100vh;
-    background: url(../image/index/banner_img1.jpg);
+    background: url(../image/index/banner1.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -20,11 +21,58 @@ html {
     z-index: -1;
 }
 
-
 .content {
-    height:100rem;
+    width:100vw;
+    height:100vh;
+    background-color:rgba(0,0,0,0.1);
+    position: absolute;
+    top:0;
+    left:0;
 }
 
+.content2 {
+    height:500rem;
+}
 
+/*검색박스*/
+.search-form{
+    width:35rem;
+    height:3.2rem;
+    border-radius:10rem;
+    background-color:#fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
 
+.search-form input {
+    background: none;
+    color: #5a6674;
+    width: 25rem;
+    height: 2.5rem;
+    text-indent: 1.2rem;
+    position:absolute;
+    top:50%;
+    left:10%;
+    transform: translate(-10%,-50%);
+    border: none;
+    appearance: none;
+    outline: none;
+    font-size:0.8rem;
+    letter-spacing: 0.1rem;
+}
 
+.search-form-btn{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top:52.5%;
+    right:5%;
+    transform: translate(0,-52.5%);
+    opacity: .8;
+}

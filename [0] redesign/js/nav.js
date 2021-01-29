@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-//고정메뉴    
+    //고정메뉴    
    $(window).scroll(function(){
         if($(this).scrollTop() > 80){
            $(".nav-wrap").addClass("fixed1");  
@@ -9,6 +9,15 @@ $(document).ready(function(){
         }
     });
     
+    //탑,서치버튼 scroll시 fixed 
+    $(window).scroll(function(){ 
+    var height = $(document).scrollTop();
+    if(height > 0){ 
+      $('.fixed-btn').addClass('fixinner'); 
+    }else if(height == 0){ 
+      $('.fixed-btn').removeClass('fixinner'); 
+    } 
+  });
     
     //top버튼
     $(".top-btn").click(function(){
@@ -23,3 +32,4 @@ $(document).ready(function(){
     
     
 });
+

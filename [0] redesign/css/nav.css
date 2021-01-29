@@ -304,26 +304,14 @@ input[id*="tit"] + label + div ul {
 /*pc,태블릿*/
 
 .fixed-btn {
-    position: fixed;
-    top: 80%;
+    bottom: 10%;
     right: 1rem;
-    transform: translateY(-80%);
+    transform: translateY(-10%);
     z-index: 10;
+    display: none;
 }
 
 .top-btn {
-    cursor: pointer;
-    display: block;
-    width:2.5rem;
-    height:2.5rem;
-    border-radius: 3rem;
-    text-align: center;
-    line-height:3rem;
-    box-shadow: 0 0 0.1rem #969696;
-    background-color:#fff;
-}
-
-.search-btn {
     cursor: pointer;
     display: block;
     width:2.5rem;
@@ -331,48 +319,27 @@ input[id*="tit"] + label + div ul {
     border-radius: 3rem;
     text-align: center;
     line-height:3.25rem;
-    margin-top:1rem;
     box-shadow: 0 0 0.1rem #969696;
     background-color:#fff;
-}
-
-
-
-
-/*
-.fixed-btn {
-    position: fixed;
-    top: 80%;
-    right: 0;
-    transform: translateY(-80%);
-    z-index: 10;
-    box-shadow: 0 0 0.1rem #cccccc;
-    background-color:#fff;
-    border-radius: 3rem;
-}
-
-.top-btn {
-    cursor: pointer;
-    display: block;
-    width:2.5rem;
-    height:2rem;
-    text-align: center;
-    line-height:3.5rem;
 }
 
 .search-btn {
     cursor: pointer;
     display: block;
     width:2.5rem;
-    height:2rem;
+    height:2.5rem;
+    border-radius: 3rem;
     text-align: center;
-    margin-top:1rem;
+    line-height:3.5rem;
+    margin-top:0.5rem;
+    box-shadow: 0 0 0.1rem #969696;
+    background-color:#fff;
 }
 
 
-
-*/
-
-
+.fixinner{ 
+    position:fixed; 
+    display: block;
+}
 
 
