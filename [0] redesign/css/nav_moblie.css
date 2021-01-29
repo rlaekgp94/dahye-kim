@@ -27,16 +27,10 @@ body {
 
 
 /*header icons*/
-.nav-icons li:nth-child(2){
-    display: none;
-}
-.nav-icons li:nth-child(3){
-    display: block;
-}
-
 .nav-icons li {
     padding: 0;
 }
+
 
 .nav-icons li img {
     width: 1.5rem;
@@ -224,7 +218,7 @@ input[id="m-menu"]:checked + label + div {
 
 
 /*menuicon none*/
-input[id="menuicon"] + label {
+input[id="menuicon"] + label + div {
     display: none;
 }
 
