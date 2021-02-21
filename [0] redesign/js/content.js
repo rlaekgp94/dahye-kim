@@ -1,37 +1,20 @@
-$(document).ready(function(){
-  
-    var swiper = new Swiper('.swiper-container', {
+$(document).ready(function() {
+		
+		 var swiper = new Swiper('.swiper-new', {
       spaceBetween: 30,
-      effect: 'fade',
+      centeredSlides: true,
       loop:true,
-      autoplay:{
-          delay:5000,
-          disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
       },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-    });
-    
-//    
-//    
-//    var swiper = new Swiper('.swiper-container', {
-//      scrollbar: {
-//        el: '.swiper-scrollbar',
-//        hide: true,
-//      },
-//       
-//       autoplay:{
-//       delay:5000,
-//       disableOnInteraction: false,
-//      },     
-//        slidesPerView: 'auto',
-//    });
+    });	
     
     
-});
+    
+	});
+
