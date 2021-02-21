@@ -17,7 +17,7 @@
     right:3.3rem;
 }
 
-
+/*pc 셋팅*/
 
 html {
     font-size: 20px;
@@ -26,6 +26,8 @@ html {
 body {
     font-size: 1rem;
 }
+
+
 
 .nav-wrap {
     width: 100vw;
@@ -50,11 +52,12 @@ body {
 }
 
 .nav-menu > li {
-    padding: 1.35rem 1rem;
-    margin: 0 0.5rem;
+    padding: .55rem 1.3rem;
+    margin: .8rem .5rem;
     cursor: pointer;
     text-align: center;
 }
+
 
 .nav-menu li a {
     color: #252525;

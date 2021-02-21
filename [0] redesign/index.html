@@ -8,9 +8,6 @@
     <meta name="format-detection" content="telephone=no">
     <title>Print bakery version.1</title>
     <link rel="stylesheet" href="css/index_layout.css">
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
-    <script src="js/nav.js"></script>
 </head>
 
 <body>
@@ -91,7 +88,7 @@
             <!--모바일메뉴-->
 
 
-            <h1 class="nav-logo"><a href="index.html"><img src="image/logo/logo.png" alt="상단로고"></a></h1>
+            <h1 class="nav-logo"><a href="index.html"><img src="image/logo/logo.png" alt="상단로고" width="140" height="25"></a></h1>
 
             <ul class="nav-menu">
                 <li>
@@ -210,31 +207,89 @@
     <p class="top-btn-moblie"><img src="image/icons/top.png" alt="맨위로" width="25" height="25"></p>
 
     <!--모바일 top-btn-->
-    
+
     <div class="fixed-btn">
-    <p class="top-btn"><img src="image/icons/top.png" alt="맨위로" width="30" height="30"></p>
-    <!--PC/태블릿 top-btn-->
-    <p class="search-btn"><img src="image/icons/search.png" alt="검색" width="30" height="30"></p>
+        <p class="top-btn"><img src="image/icons/top.png" alt="맨위로" width="30" height="30"></p>
+        <!--PC/태블릿 top-btn-->
+        <p class="search-btn"><img src="image/icons/search.png" alt="검색" width="30" height="30"></p>
     </div>
-    
-    
+
+
     <div class="banner">
-        
+        <div class="swiper-container slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide bg1">
+                    <span>STEEL FLOWER</span>
+                    <p class="title-pb">DAVID GERSTEIN</p>
+                    <p class="title-moblie">DAVID<br>GERSTEIN</p>
+
+                    <div>
+                        <p class="goods-name">BRUSSELS BOUQUET</p>
+                        David Gerstein, Brussels bouquet<br>
+                        100x82cm, steel 3layer, Hand painted, ed. 96
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide bg2">
+                    <span>FineLittleDay</span>
+                    <p class="title-pb">AIR. WIND. SCENT.</p>
+                    <p class="title-moblie c-text">AIR.<br>WIND.<br>SCENT.</p>
+                    <div>
+                        <p class="goods-name">Elisabeth Dunker</p>
+                        Elisabeth Dunker, POSE POSTER<br>
+                        100x70cm, FSC paper, offset print, open edition
+                    </div>
+                </div>
+
+                <div class="swiper-slide bg3">
+                    <span>epilogue</span>
+                    <p class="title-pb">SPRING SERIES</p>
+                    <p class="title-moblie">SPRING<br>SERIES</p>
+                    <div>
+                        <p class="goods-name">&#34;캔버스 위 하얀 눈을 녹이고 피어나는 봄&#34;</p>
+                        Maria Chang, Spring Series, 2020<br>
+                        Mixed media 45.5x53x5cm, Original
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+
+
+        <form class="search-form">
+
+            <input type="text" placeholder="SEARCH YOUR PRINT" maxlength="20" minlength="2" autofocus autocomplete="off">
+            <button type="submit" class="search-form-btn"><img src="image/icons/search.png" alt="검색버튼" width="30" height="30"></button>
+        </form>
+
+
+
     </div>
 
     <div class="content">
-         <form class="search-form">
-        
-        <input type="text" placeholder="SEARCH YOUR PRINT" maxlength="20" minlength="2" autofocus autocomplete="off">
-        <button type="submit" class="search-form-btn"><img src="image/icons/search.png" alt="검색버튼" width="30" height="30"></button>
-        </form>
+
+
+
     </div>
-    
+
     <div class="content2">
-    
+
 
     </div>
 
 
 
-</body></html>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/content.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+</body>
+
+</html>
