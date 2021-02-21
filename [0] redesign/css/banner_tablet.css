@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/*태블릿 셋팅*/
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+
+
+/*배너이미지*/
+
+.swiper-container {
+    width:93vw;
+}
+
+
+
+.slider .swiper-slide > span{
+    font-size:1.25rem;
+    top:33.5%;
+}
+
+.slider .swiper-slide > p{
+    font-size:4rem;
+    top:38%;
+}
+
+
+.slider .swiper-slide div > .goods-name{
+    font-size:.8rem;
+}
+
+.slider .swiper-slide:nth-child(4) div{
+    color:#252525;
+}
+
+
+
+/*검색박스*/
+.search-form{
+    width:35rem;
+    
+}
