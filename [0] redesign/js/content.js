@@ -8,10 +8,6 @@ $(document).ready(function() {
         delay: 6000,
         disableOnInteraction: false,
       },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
     });	
     
     
