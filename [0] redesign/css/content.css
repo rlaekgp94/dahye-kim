@@ -20,10 +20,14 @@ body {
     position: relative;
 }
 
-/*content2*/
-.content2 {
+/*모바일 content*/
+.m-content {
+    width: 90vw;
     height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
     position: relative;
+    display: none;
 }
 
 .swiper-new {
@@ -44,12 +48,22 @@ body {
 .swiper-slide {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-auto-rows: 49.15%;
+    grid-auto-rows: minmax(49.15%, auto);
     grid-gap: .75rem;
     overflow: hidden;
 }
 
+.content > p:first-child {
+    display: none;
+}
+
+
+.case-img > p{
+    display: none;
+}
+
 /*store1*/
+
 
 .store1 div:nth-child(9) {
     grid-column: 4/6;
@@ -113,7 +127,7 @@ body {
 }
 
 .store1 > div:nth-child(3) p:first-child {
-    font-size: 15rem;
+    font-size: 10rem;
 }
 
 
@@ -149,8 +163,6 @@ body {
     align-items: top;
     justify-content: flex-end;
     height:20%;
-}
-.store1 > div:nth-child(5){
 }
 
 .store1 > div:nth-child(5) > div:first-child > p {

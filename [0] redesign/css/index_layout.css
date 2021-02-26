@@ -7,13 +7,15 @@
 @import url("nav_tablet.css") all and (max-width:1120px); /*nav 테블릿 css*/
 @import url("nav_moblie.css") all and (max-width:960px); /*nav 모바일 css*/
 
-@import url("banner.css"); /*컨텐츠 공통 css*/
-@import url("banner_tablet.css") all and (max-width:1120px); /*컨텐츠 태블릿 css*/
-@import url("banner_moblie.css") all and (max-width:960px); /*컨텐츠 모바일 css*/
+@import url("banner.css"); /*배너 공통 css*/
+@import url("banner_tablet.css") all and (max-width:1120px); /*배너 태블릿 css*/
+@import url("banner_moblie.css") all and (max-width:960px); /*배너 모바일 css*/
 
 @import url("swiper-bundle.min.css"); /*슬라이더*/
 
 @import url("content.css"); /*컨텐츠*/
+@import url("content_tablet.css") all and (max-width:1120px); /*컨텐츠 태블릿 css*/
+@import url("content_moblie.css") all and (max-width:960px); /*컨텐츠 모바일 css*/
 
 
 

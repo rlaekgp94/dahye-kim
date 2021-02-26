@@ -7,6 +7,9 @@ $(document).ready(function() {
       autoplay: {
         delay: 6000,
         disableOnInteraction: false,
+      }, pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
       },
     });	
     
