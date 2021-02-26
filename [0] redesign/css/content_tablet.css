@@ -15,6 +15,7 @@ body {
 .content {
     width: 93vw;
     position: relative;
+    margin: 2rem auto 0;
 }
 
 .swiper-slide {
@@ -228,4 +229,66 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+/*promotion*/
+
+.promotion{
+    width: 93vw;
+    height: 48vh;
+    margin: 0 auto 3rem;
+}
+
+.promo-case-img{
+    width:100%;
+    height:60%;
+}
+
+
+.promo-case span {
+    font-size:.65rem;
+    line-height:1rem;
+}
+
+.promo-case p {
+    font-size:.85rem;
+    line-height:1.25rem;
+}
+
+/*webake*/
+
+.webake{
+    width: 93vw;
+    margin: 0 auto 3rem;
+}
+
+.bake-case-img{
+    width:100%;
+    height:60%;
+}
+
+
+.bake-case span {
+    font-size:.65rem;
+    line-height:1rem;
+}
+
+.bake-case p {
+    font-size:.85rem;
+    line-height:1.25rem;
+}
+
+
+
+.bake-case:nth-child(3) p {
+    font-size:.85rem;
+    line-height:1.25rem;
+}
+
+
+
+
+
+
+
+
 
