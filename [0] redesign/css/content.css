@@ -160,7 +160,7 @@ body {
     font-size: 1.25rem;
     font-weight: bold;
     display: flex;
-    align-items: top;
+    align-items: flex-start;
     justify-content: flex-end;
     height:20%;
 }
@@ -173,8 +173,8 @@ body {
 }
 
 .store1 > div:nth-child(5) > .limied-btn {
-    height:50px;
-    width:170px;
+    height:2.5rem;
+    width:8.5rem;
     position: absolute;
     bottom:15%;
     left:50%;    
@@ -185,16 +185,16 @@ body {
 .store1 > div:nth-child(5) > .limied-btn a{
     color:#fff;
     display: block;
-    width:170px;
-    height:50px;
-    line-height:50px;
+    width:8.5rem;
+    height:2.5rem;
+    line-height:2.5rem;
     text-align: center;
     font-size:.75rem;    
 }
 .store1 > div:nth-child(5) > .limied-btn:hover a{
     color:#252525;
     background-color:#fff;
-    border:1px solid #252525;
+    border:.05rem solid #252525;
 }
 
 .store1 > div:nth-child(6) .case-img {
@@ -333,7 +333,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    height: 50px;
+    height: 2.5rem;
     margin: 0 auto;
 
 }
@@ -437,8 +437,8 @@ body {
     font-size: 1.5rem;
     font-weight: 800;
     position: absolute;
-    top: 115px;
-    right: -80px;
+    top: 5.75rem;
+    right: -4rem;
     letter-spacing: .1rem;
     transform: rotate(90deg);
     line-height: 1.75rem;
@@ -450,7 +450,7 @@ body {
 .promotion{
     width: 95vw;
     height: 60vh;
-    margin: 3rem auto;
+    margin: 4rem auto 8rem;
     overflow: hidden;
     position: relative;
     padding:0 0 2rem;
@@ -473,7 +473,7 @@ body {
 }
 
 .promo-case{
-    height:30rem;
+    height:25rem;
 }
 
 .promo-case-img{
@@ -521,7 +521,7 @@ body {
 .promo-case p {
     color:#252525;
     display: block;
-    font-size:1rem;
+    font-size:.9rem;
     line-height:1.75rem;
     font-weight: bold;
 }
@@ -534,7 +534,7 @@ body {
 .webake{
     width: 95vw;
     height: 70vh;
-    margin: 5rem auto;
+    margin: 8rem auto;
     overflow: hidden;
     position: relative;
     padding:0 0 2rem;
@@ -557,7 +557,7 @@ body {
 }
 
 .bake-case{
-    height:35rem;
+    height:30rem;
 }
 
 .bake-case-img{
@@ -621,14 +621,260 @@ body {
 .bake-case p {
     color:#252525;
     display: block;
-    font-size:1rem;
+    font-size:.9rem;
     line-height:1.75rem;
     font-weight: bold;
 }
 
-.bake-case:nth-child(3) p {
-    font-size:.9rem;
+
+
+/*todaypick*/
+.todaypick{
+    width: 95vw;
+    height: 70vh;
+    margin: 8rem auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr;
+    grid-gap:1rem;
 }
 
+/*pick-top-wrap*/
+.pick-top-wrap{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:4rem;
+}
+
+.pick-top-wrap > .pick-top-title{
+    display: grid;
+    color:#252525;
+}
+
+.pick-top-wrap > .pick-top-title > p:first-child{
+    font-size:3rem;
+    font-weight: 800;
+    line-height:3.25rem;
+}
+.pick-top-wrap > .pick-top-title > p:nth-child(2){
+    font-size:.85rem;
+    display: flex;
+    align-items : center;
+    cursor: pointer;
+    width:9rem;
+    font-weight: 800;
+    color:#252525;
+}
+.pick-top-wrap > .pick-top-title > p:nth-child(2):hover{
+    color:#797979;
+}
+.pick-top-wrap > .pick-top-title > p:nth-child(2) img{
+    padding-right:1rem;
+    width:1.5rem;
+    height:1.5rem;
+}
+
+.pick-top-subtitle{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr .5fr;
+    margin:auto 0;
+}
+
+.pick-top-subtitle p{
+    line-height:1.25rem;
+    font-size: .85rem;
+    color:#252525;
+    font-weight: bold;
+}
+
+.pick-top-subtitle p:last-child{
+    display: flex;
+    align-items:flex-end;
+    font-size:1.75rem;
+    color:#252525;
+}
+
+.pick-top-subtitle span{
+    display: inline-block;
+    color:#393939;
+    font-size:.65rem;
+    line-height:1rem;
+    font-weight: 500;
+    margin-top:.5rem;
+}
+
+.pick-center-wrap{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:4rem;
+}
+
+.pick-bottom-case-video > div {
+    padding-bottom: 56.25%;
+    position:relative;
+    max-width:100%;
+    height:0;
+    overflow: hidden;
+}
+
+.pick-bottom-case-video > div > video {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+
+.pick-bottom-case-img{
+    background:url(../image/index/pick/pick-img-02.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 30% center;
+    background-repeat: no-repeat;
+}
+
+.pick-bottom-wrap{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:4rem;
+    margin-top:1.5rem;
+}
+.pick-bottom-text-01{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.pick-bottom-text-01 p{
+    font-size:.65rem;
+    line-height:1rem;
+    color:#252525;
+}
+
+.pick-bottom-text-01 span{
+    font-size:.85rem;
+    font-weight: 800;
+    line-height:1.25rem;
+}
+
+
+.pick-bottom-text-02{
+    display: flex;
+    justify-content:flex-end;
+    align-items: top;
+}
+
+.pick-bottom-text-02 p{
+    font-size:.85rem;
+    color:#252525;
+    font-weight: bold;
+    margin-right:7rem;
+}
+
+
+.pick-bottom-text-02 a{
+    color:#252525;
+    font-size:.85rem;
+    font-weight: bold;
+    text-decoration:underline;
+}
+.pick-bottom-text-02 a:hover{
+    color:#797979;
+}
+
+
+
+
+/*service*/
+.service{
+    width: 95vw;
+    height: 23vh;
+    margin: 8rem auto;
+    display : flex;
+    justify-content: flex-end;
+    grid-gap:10rem;
+}
+
+.service div{
+    width:22rem;
+}
+
+.service div p:first-child{
+    font-size:1.5rem;
+    font-weight: bold;
+    padding-bottom:2.5rem;
+}
+
+
+/*newsletter*/
+.newsletter{
+    position: relative;
+}
+
+.newsletter p{
+    font-size:.65rem;
+}
+
+.newsletter p:nth-child(2){
+    padding-bottom:1rem;
+}
+
+.newsletter p input{
+    border:none;
+    border-bottom:.05rem solid #777777;
+    width:85%;
+    line-height:1.65rem;
+    outline:none;
+}
+
+.newsletter p input::placeholder{
+    color:#b6b6b6;
+    font-size:.75rem;
+}
+
+
+.name{
+    padding-bottom:1rem;
+}
+
+.email_check{
+    font-size:.65rem;
+}
+
+.email_check label{
+    border-bottom:.05rem solid #555555;
+    padding-bottom:.1rem;
+    cursor:pointer;
+    color:#555555;
+}
+
+.newsletter img{
+    cursor: pointer;
+    position: absolute;
+    right:14%;
+    bottom:0;
+}
+
+/*notice*/
+
+.notice ul li{
+    font-size:.75rem;
+    color:#999999;
+    line-height:1.5rem;
+}
+
+.notice ul li a{
+    color:#555555;
+    margin-left:1.5rem;
+    font-size:.75rem;
+    font-weight:bold;
+}
+
+.notice ul li a:hover{
+    text-decoration:underline;
+}
 
 

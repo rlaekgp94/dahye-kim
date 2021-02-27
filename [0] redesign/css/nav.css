@@ -2,7 +2,7 @@
 
 /*scroll시 nav fixed*/
 .nav-wrap.fixed1 {
-    background: rgba(255, 255, 255, .8);
+    background: rgba(255, 255, 255, 1);
     height: 4rem;
     position: fixed;
     left: 0;
@@ -136,16 +136,16 @@ input[id="menuicon"]:checked + label > .user-x-icons {
 
 .sidebar > .side-nav{
     position:absolute;
-    top:10%;
+    top:15%;
     left:50%;
     transform: translateX(-50%);
     width:14rem;
-    height:40rem;
+    height:42rem;
 }
 
 .sidebar h2 {
     color:#dddddd;
-    font-size: .95rem;
+    font-size: .9rem;
     border-bottom:.075rem solid #cbcbcb;
     position:relative;
     cursor: pointer;
@@ -157,27 +157,28 @@ input[id="menuicon"]:checked + label > .user-x-icons {
 
 .sidebar .cs{
     position: absolute;
-    bottom:32%;
+    bottom:35%;
     width:14rem;
 }
 
 .sidebar .cs-tell{
     position: absolute;
     bottom:12%;
-    width:14rem;
-    color:#dddddd;
+    color:#a2a2a2;
 }
 
 .sidebar .cs-tell span{
     font-size:30px;
     font-weight: 400;
-    line-height:3rem;;
+    line-height:2.5rem;
+    letter-spacing: .1rem;
 }
 
 .sidebar .cs-tell p{
-    font-size:14px;
-    line-height: 1.35rem;
+    font-size:12px;
+    line-height: 1rem;
     font-weight: 300;
+    letter-spacing: .1rem;
 }
 
 .sidebar h2 em{
@@ -191,33 +192,10 @@ input[id="menuicon"]:checked + label > .user-x-icons {
     background:url(../image/icons/next.png) 0 0 no-repeat;
 }
 
-/*sns-btn*/
-
-.sns-btn{
-    width:11rem;
-    position:absolute;
-    bottom:0;
-    left:0;
-}
-
-.sns-btn ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.sns-btn ul li img{
-    width:35px;
-    height:35px;
-    opacity: 0.8;
-}
-
-
-
 
 .sidebar ul > li > a{
     color:#9b9b9b;
-    font-size:0.7rem;
+    font-size:0.65rem;
 }
 
 .sidebar ul > li{
@@ -228,6 +206,31 @@ input[id="menuicon"]:checked + label > .user-x-icons {
     color:#fff;
     transition: all .35s;
 }
+
+
+
+/*sns-btn*/
+
+.sns-btn{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    display: none;
+}
+
+.sns-btn ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sns-btn ul li img{
+    width:35px;
+    height:35px;
+    opacity: 0.8;
+}
+
+
 
 /*title*/
 
@@ -241,7 +244,7 @@ input[id*="tit"] + label {
     border-top:0.05rem solid #9d9d9d;
     color:#dbdbdb;
     font-weight: bold;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     cursor: pointer;
     position:relative;
 }
@@ -287,7 +290,7 @@ input[id*="tit"] + label + div {
 
 input[id*="tit"] + label + div ul {
     display: inline-block;
-    padding:10px;
+    padding:0 10px 10px;
     margin-bottom:10px;
 }
 
