@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*태블릿 셋팅*/
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+
+
+
+
+/*footer*/
+
+.footer-wrap {
+    width: 93vw;
+    padding: 2rem 0;
+}
+
+
+/*footer-left*/
+
+
+.footer-left-top p {
+    font-size: .5rem;
+    line-height: 2rem;
+}
+
+.footer-left-bottom p {
+    font-size: .5rem;
+    line-height: .85rem;
+}
+
+
+/*footer-center*/
+
+.footer-center-wrap {
+    line-height: .85rem;
+    width: 10rem;
+}
+
+.footer-center-wrap div {
+    width: 5rem;
+}
+
+.footer-center-wrap div p:first-child {
+    font-size: .5rem;
+    line-height: 2rem;
+}
+
+
+.footer-center-wrap div {
+    text-align: center;
+    font-size: .5rem;
+}
+
+.footer-center-wrap div a:hover {
+    text-decoration: none;
+}
+
+
+/*footer-right*/
+
+.footer-right-wrap {
+    width: 10rem;
+}
+
+.footer-right-sns p {
+    font-size: .5rem;
+}
+
+.footer-right-sns div {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: .25rem;
+    width: 3.5rem;
+}
+
+.footer-right-sns a img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.footer-right-select select {
+    width: 5rem;
+    font-size: .5rem;
+    font-weight: bold;
+    height:1.85rem;
+}

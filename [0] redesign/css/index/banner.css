@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+html {
+    overflow-x: hidden;
+}
+
+/*pc 셋팅*/
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+
+/*배너이미지*/
+
+.swiper-container {
+    width: 95vw;
+    height: 88vh;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider .swiper-slide {
+    display: flex;
+    align-items: center;
+    /*    justify-content:center;*/
+    flex-direction: column;
+    color: #252525;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.slider .swiper-slide.bg1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(/image/index/ban1.jpg) no-repeat;
+    color: #fff;
+    /*슬라이드텍스트컬러*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.slider .swiper-slide.bg2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(/image/index/ban2.png) no-repeat;
+    color: #fff;
+    /*슬라이드텍스트컬러*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.slider .swiper-slide.bg3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(/image/index/ban3.jpg) no-repeat;
+    color: #fff;
+    /*슬라이드텍스트컬러*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/*moblie title*/
+.title-moblie {
+    display: none;
+}
+
+.slider .swiper-slide > span {
+    font-size: 1.5rem;
+    opacity: 0;
+    position: absolute;
+    top: 30.5%;
+    text-shadow: rgba(0, 0, 0, 0.8) .05rem 0 .5rem;
+}
+
+.slider .swiper-slide > p {
+    font-size: 5.75rem;
+    font-weight: 500;
+    opacity: 0;
+    position: absolute;
+    top: 35.5%;
+    -webkit-text-stroke: .075rem #fff;
+    color: transparent;
+    cursor: pointer;
+}
+
+.slider .swiper-slide > p:hover {
+    opacity: 1;
+    color: #fff;
+    -webkit-text-stroke: none;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+.slider .swiper-slide div {
+    font-size: .7rem;
+    font-weight: 300;
+    opacity: 0;
+    position: absolute;
+    bottom: 5%;
+    line-height: 1rem;
+}
+
+.slider .swiper-slide div > .goods-name {
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.slider .swiper-slide:nth-child(4) div {
+    color: #252525;
+}
+
+@keyframes text {
+    0% {
+        opacity: 0;
+        transform: translateY(1.5rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.slider .swiper-slide.swiper-slide-active span {
+    animation: text 1s .2s both;
+}
+
+.slider .swiper-slide.swiper-slide-active p {
+    animation: text 1s .5s both;
+}
+
+.slider .swiper-slide.swiper-slide-active div {
+    animation: text 1s .8s both;
+}
+
+
+/*검색박스*/
+.search-form {
+    width: 38rem;
+    height: 3.2rem;
+    border-radius: 10rem;
+    background-color: #fff;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -58%);
+    box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+.search-form input {
+    background: none;
+    color: #5a6674;
+    width: 25rem;
+    height: 2.5rem;
+    text-indent: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+    border: none;
+    appearance: none;
+    outline: none;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+.search-form-btn {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 52.5%;
+    right: 5%;
+    transform: translate(0, -52.5%);
+    opacity: .8;
+}
