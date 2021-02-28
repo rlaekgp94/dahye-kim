@@ -33,6 +33,9 @@
 @import url("/css/Common/footer_tablet.css") all and (max-width:1120px);
 /*footer 태블릿 css*/
 
+@import url("/css/Common/footer_moblie.css") all and (max-width:960px);
+/*footer 모바일 css*/
+
 
 
 /*한글폰트*/

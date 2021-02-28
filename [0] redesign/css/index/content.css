@@ -797,9 +797,6 @@ body {
 
 /*newsletter*/
 
-.newsletter {
-    position: relative;
-}
 
 .newsletter p {
     font-size: .65rem;
@@ -828,6 +825,9 @@ body {
 
 .email_check {
     font-size: .65rem;
+    position: relative;
+    width:18.5rem;
+    display: block;
 }
 
 .email_check label {
@@ -840,8 +840,9 @@ body {
 .newsletter img {
     cursor: pointer;
     position: absolute;
-    right: 5%;
-    bottom: 1rem;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
