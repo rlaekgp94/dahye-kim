@@ -728,7 +728,7 @@ body {
 .pick-bottom-text-01 {
     display: flex;
     justify-content: space-between;
-    align-items: top;
+    align-items: flex-start;
 }
 
 .pick-bottom-text-01 p {
@@ -747,7 +747,7 @@ body {
 .pick-bottom-text-02 {
     display: flex;
     justify-content: flex-end;
-    align-items: top;
+    align-items:flex-start;
 }
 
 .pick-bottom-text-02 p {

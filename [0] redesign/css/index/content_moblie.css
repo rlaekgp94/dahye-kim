@@ -369,7 +369,7 @@ body {
 /*pick-top-wrap*/
 
 .pick-top-wrap {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.25fr;
     grid-gap: .5rem;
     margin-bottom: .5rem;
 }
@@ -388,7 +388,7 @@ body {
     justify-content: space-between;
 }
 
-.pick-top-subtitle p:not(.pick-top-subtitle p:first-child) {
+.epilogue {
     display: none;
 }
 
