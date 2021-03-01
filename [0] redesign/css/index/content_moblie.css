@@ -48,6 +48,32 @@ body {
 }
 
 
+/*heart_btn*/
+
+.case-img {
+    position: relative;
+}
+
+.heart_btn {
+    border: none;
+    cursor: pointer;
+    margin: .5rem;
+    background: rgba(255,255,255,1);
+    border-radius: 1rem;
+    width:2rem;
+    height:2rem;
+    position:absolute;
+    top:.5rem;
+    right:.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart_btn:focus {
+    outline: none;
+}
+
 /*m-store1*/
 
 .case-img {
