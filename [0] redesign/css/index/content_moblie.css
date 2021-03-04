@@ -244,6 +244,7 @@ body {
 .promotion {
     width: 90vw;
     height: 39rem;
+    margin: 0 auto 4.5rem;
 }
 
 
@@ -328,7 +329,7 @@ body {
 
 .webake {
     width: 90vw;
-    margin: 0 auto 2.5rem;
+    margin: 0 auto;
 }
 
 .webake > p:first-child {
@@ -386,7 +387,7 @@ body {
 .todaypick {
     width: 90vw;
     height: 30%;
-    margin: 2.5rem auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
