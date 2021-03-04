@@ -268,7 +268,7 @@ input[id="menuicon"] + label + div {
 }
 
 
-.top-btn-moblie {
+.top-btn-mobile {
     border-radius: 30px;
     box-shadow: 0 0 .2rem #ccc;
     /*색변경*/
@@ -285,7 +285,7 @@ input[id="menuicon"] + label + div {
     text-align: center;
 }
 
-.top-btn-moblie img {
+.top-btn-mobile img {
     width: 30px;
     height: 30px;
     opacity: 0.5;
