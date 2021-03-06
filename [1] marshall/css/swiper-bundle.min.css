@@ -16,9 +16,9 @@
 .swiper-button-next,.swiper-button-prev{position:absolute;top:6%;/*위치*/width:calc(var(--swiper-navigation-size)/ 30 * 27);height:var(--swiper-navigation-size);margin-top:calc(-1 * var(--swiper-navigation-size)/ 2);z-index:10;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--swiper-navigation-color,var(--swiper-theme-color))}
 .swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled{opacity:.35;cursor:auto;pointer-events:none}
 .swiper-button-next:after,.swiper-button-prev:after{font-family:swiper-icons;font-size:var(--swiper-navigation-size);text-transform:none!important;letter-spacing:0;text-transform:none;font-variant:initial;line-height:1}
-.swiper-button-prev,.swiper-container-rtl .swiper-button-next{left:20%;top:50%;}/*화살표 위치*/
+.swiper-button-prev,.swiper-container-rtl .swiper-button-next{left:15%;top:50%;}/*화살표 위치*/
 .swiper-button-prev:after,.swiper-container-rtl .swiper-button-next:after{content:'prev'}
-.swiper-button-next,.swiper-container-rtl .swiper-button-prev{right:20%;top:50%;}
+.swiper-button-next,.swiper-container-rtl .swiper-button-prev{right:15%;top:50%;}
 .swiper-button-next:after,.swiper-container-rtl .swiper-button-prev:after{content:'next'}
 .swiper-button-next.swiper-button-white,.swiper-button-prev.swiper-button-white{--swiper-navigation-color:#ffffff}
 .swiper-button-next.swiper-button-black,.swiper-button-prev.swiper-button-black{--swiper-navigation-color:#000000}
