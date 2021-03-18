@@ -20,4 +20,9 @@ $(document).ready(function(){
     $('.sidebar-wrap').fadeToggle();
   });
     
+    //top버튼
+    $(".fixed-top-btn").click(function(){
+        $("html,body").stop().animate({scrollTop:0},1500,"easeOutQuart");
+    });
+    
 });

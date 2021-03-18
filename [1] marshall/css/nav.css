@@ -11,12 +11,12 @@ body {
 }
 
 html {
-    background-color:darkgray;
+    background:rgba(15, 15, 16, 1);
 }
 
 header {
-    background: rgb(0, 0, 0, 0);
-    height: 5rem;
+    background: rgba(15, 15, 16, 0);
+    height: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,9 +28,9 @@ header {
 
 
 header.fixed1 {
-    background: rgb(0, 0, 0,1);
+    background: rgba(15, 15, 16, 1);
     width:100%;
-    height: 5rem;
+    height: 6rem;
     position: fixed;
     left: 0;
     top: 0;
@@ -42,7 +42,7 @@ header.fixed1 {
 /*nav-wrap*/
 
 .nav-wrap {
-    width: 90vw;
+    width: 92.5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,11 +58,51 @@ header.fixed1 {
     align-items: flex-end;
 }
 
+
+/*nav search*/
+
 .menu-icon ul{
-    width:5rem;
+    width:22.5rem;
+    height:2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.menu-icon li:first-child{
+    width:17rem;
+    height:2rem;
+    position:relative;
+}
+
+.menu-icon li:nth-child(2){
+}
+
+.search-form input {
+    border:none;
+    width:17rem;
+    background: rgba(255,255,255,.05);
+    height:2rem;
+    border-radius: 10rem;
+    text-indent:1.25rem;
+    letter-spacing: .1rem;
+    outline: none;
+    color:#fff;
+}
+
+
+.search-form input::placeholder  {
+    color:rgba(255,255,255,.5);
+}
+
+.search-form button {
+    background:none;
+    border:none;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right:1.25rem;
+    width:1rem;
+    height:1rem;
 }
 
 /*menuicon*/
@@ -140,11 +180,10 @@ input[id="menuicon"]:checked + label + .sidebar-wrap {display: block;}
 
 .sidebar > div {
     width:85rem;
-    height:45rem;
+    height:44rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-/*    background-color:red;*/
 }
 
 /*sub_language*/
@@ -196,6 +235,7 @@ input[id="menuicon"]:checked + label + .sidebar-wrap {display: block;}
 }
 
 /*sns_icon*/
+
 .sns_icon {
     width:12.5rem;
     flex:.5;
@@ -204,6 +244,71 @@ input[id="menuicon"]:checked + label + .sidebar-wrap {display: block;}
 .sns_icon ul{
     display: flex;
     justify-content: space-between;
+}
+
+
+/*fixed-wrap*/
+
+.fixed-wrap {
+    width:3rem;
+    height:17rem;
+    position:fixed;
+    bottom:2rem;
+    right:2.25rem;
+    z-index: 10;
+}
+
+.fixed-top-btn {
+    color:#fff;
+    width:3rem;
+    height:2rem;
+    display: block;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 800;
+    cursor: pointer;
+    opacity: 0.6;
+    line-height:1.5rem;
+}
+
+.fixed-icons::before {
+    background:#fff;
+    width:.05rem;
+    height:6rem;
+    position:absolute;
+    top:-4rem;
+    left:50%;
+    transform: translateY(-50%);
+    content: "";
+    opacity: 0.3;
+}
+
+.fixed-icons {
+    width:3rem;
+    height:7rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    position:absolute;
+    bottom:0;
+}
+
+.fixed-icons a {
+    width:1.5rem;
+    height:1.5rem;
+    margin:.5rem 0;
+    opacity: 0.6;
+    
+}
+
+.icon-facebook {
+    background:url(../image/icons/facebook_icons.png) no-repeat center / contain;
+}
+.icon-instagram {
+    background:url(../image/icons/insta_icons.png) no-repeat center / contain;
+}
+.icon-pinterest {
+    background:url(../image/icons/pinter_icons.png) no-repeat center / contain;
 }
 
 

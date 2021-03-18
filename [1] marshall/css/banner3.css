@@ -66,47 +66,78 @@ body {
 */
 }
 
-/*banner-content01*/
-.banner-content01{
-    position:relative;
+
+/*banner-goods*/
+
+.banner-goods {
+    position:absolute;
+    top:10rem;
+    right:3rem;
+    width:22.5rem;
+    height:11rem;
+    z-index: 10;
+    background:rgba(255, 255, 255, 0.2);
 }
 
-.banner-background{
-    width:100%;
-    height:100%;
-    background:linear-gradient(217deg, rgba(1, 1, 2, 1), rgb(42, 39, 39) 70.71%),
-    linear-gradient(127deg, rgba(13, 27, 38, 1), rgba(13, 27, 38, 1) 70.71%),
-    linear-gradient(336deg, rgba(14, 15, 16, 1), rgba(177, 190, 201, 1) 70.71%);
+.goods-item {
+    width:20.5rem;
+    height:11rem;
+    background:rgba(255, 255, 255, 0.4);
+    position:relative;
+    display: flex;
+    align-items: center;
 }
+
+.goods-item p {
+    width:10rem;
+    height:6rem;
+    font-weight: bold;
+    margin-left:1.5rem;
+    font-size:1.25rem;
+}
+
+
+.goods-item p span{
+    font-size:.85rem;
+    font-weight: 500;
+    display: block;
+    padding-top:1rem;
+    line-height:1rem;
+}
+
+.goods-item img {
+    width:10rem;
+    height:10rem;
+    
+}
+
+
 
 .banner-content01 > .banner-image{
     position:absolute;
     top:0;
-    left:50%;
-    transform: translateX(-50%);
+    left:0;
     width:100%;
-    height:90%;
-    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(../image/banner/Monitor-II-ANC-PDP-Desktop-USP-1.png) no-repeat left / cover ;
+    height:100%;
+    background:linear-gradient(rgba(25, 25, 25, 0.7), rgba(25, 25, 25, 0)), url(../image/banner/slideshow-03-desktop@1.41xV2.jpg) no-repeat center / cover ;
     z-index:1;
 }
 .banner-content02 > .banner-image{
     position:absolute;
     top:0;
-    left:50%;
-    transform: translateX(-50%);
+    left:0;
     width:100%;
-    height:90%;
-    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(../image/banner/03-usp02-mode-ii-desktop@1.41x.png) no-repeat right / contain ;
+    height:100%;
+    background:linear-gradient(rgba(25, 25, 25, 0.7), rgba(25, 25, 25, 0)), url(../image/banner/Monitor-II-ANC_PDP_Hero_Desktop.jpg) no-repeat center / cover ;
     z-index:1;
 }
 .banner-content03 > .banner-image{
     position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    width:80%;
-    height:80%;
-    background:url(../image/banner/case-img-03-01.png) no-repeat center / contain ;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(rgba(25, 25, 25, 0.7), rgba(25, 25, 25, 0)), url(../image/banner/marshall-stockwell-ii-hero-Desktop@1.41x.jpg) no-repeat center / cover ;
     z-index:1;
 }
 
@@ -115,13 +146,14 @@ body {
     height:10rem;
     line-height:10rem;
     position:absolute;
-    left:5rem;
-    top:6rem;
-    font-size:7rem;
+    left:10rem;
+    top:8rem;
+    font-size:10rem;
     font-weight: bold;
     color: transparent;
-    -webkit-text-stroke: .05rem rgba(255,255,255,.15);
+    -webkit-text-stroke: .05rem rgba(255,255,255,.2);
     overflow: hidden;
+    z-index: 1;
 }
 
 
@@ -130,7 +162,7 @@ body {
     width:20rem;
     height:13rem;
     position:absolute;
-    top:45%;
+    top:25rem;
     left:10rem;
     transform: translateY(-45%);
     color:#fff;

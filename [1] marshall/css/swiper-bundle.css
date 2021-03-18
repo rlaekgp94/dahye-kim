@@ -160,14 +160,14 @@
 }
 
 :root {
-    --swiper-navigation-size: 44px
+    --swiper-navigation-size: 30px
 }
 
 .swiper-button-prev {    
-    right:10rem;
+    left:3rem;
 }
 .swiper-button-next {    
-    right:5rem;
+    left:7rem;
 }
 .swiper-button-next,
 .swiper-button-prev {
@@ -181,7 +181,7 @@
     align-items: center;
     justify-content: center;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
-    bottom:5rem;
+    bottom:3rem;
 }
 
 .swiper-button-next.swiper-button-disabled,
@@ -239,6 +239,7 @@
     text-align: center;
     transition: .3s opacity;
     transform: translate3d(0, 0, 0);
+    transform:rotate(90deg);
     z-index: 10;
 }
 
@@ -357,7 +358,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-pagination-progressbar {
-    background: rgba(255, 178, 55, 0.46);/*pagination background*/
+    background: rgba(216, 216, 216,.4);/*pagination background*/
     position: absolute
 }
 
@@ -379,10 +380,10 @@ button.swiper-pagination-bullet {
 .swiper-container-horizontal > .swiper-pagination-progressbar,
 .swiper-container-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
     /*위치*/
-    width: 15rem;
+    width: 10rem;
     height: 4px;
-    left: 5%;
-    bottom: 20%;
+    left: -1.5rem;
+    top:50%;
 }
 
 .swiper-container-horizontal > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
