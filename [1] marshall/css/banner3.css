@@ -67,50 +67,31 @@ body {
 }
 
 
-/*banner-goods*/
+.banner-background {
+    position:absolute;
+    top:30%;
+    transform: translateY(-30%);
+    right:2%;
+    width:30%;
+    height:60%;
+    z-index: 10;
+    background:url(../image/banner/case-img-01-01.png) no-repeat left / contain ;
+}
 
-.banner-goods {
+/*
+.banner-video {
     position:absolute;
     top:10rem;
     right:3rem;
-    width:22.5rem;
-    height:11rem;
-    z-index: 10;
-    background:rgba(255, 255, 255, 0.2);
-}
-
-.goods-item {
-    width:20.5rem;
-    height:11rem;
-    background:rgba(255, 255, 255, 0.4);
-    position:relative;
-    display: flex;
-    align-items: center;
-}
-
-.goods-item p {
-    width:10rem;
-    height:6rem;
-    font-weight: bold;
-    margin-left:1.5rem;
-    font-size:1.25rem;
-}
-
-
-.goods-item p span{
-    font-size:.85rem;
-    font-weight: 500;
-    display: block;
-    padding-top:1rem;
-    line-height:1rem;
-}
-
-.goods-item img {
-    width:10rem;
+    width:18rem;
     height:10rem;
-    
+    z-index: 10;
 }
-
+.banner-video iframe{
+    width:100%;
+    height:100%;
+}
+*/
 
 
 .banner-content01 > .banner-image{
@@ -159,7 +140,7 @@ body {
 
 
 .banner-goods-tet {
-    width:20rem;
+    width:22rem;
     height:13rem;
     position:absolute;
     top:25rem;
@@ -176,7 +157,8 @@ body {
 }
 
 .banner-goods-tet span{
-    font-size:2rem;
+    font-size:2.5rem;
+    line-height:2.5rem;
     font-weight: bold;
 }
 
