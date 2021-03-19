@@ -15,6 +15,7 @@ html {
 
 body {
     font-size: 1rem;
+    font-family: 'Poppins';
 }
 
 
@@ -49,9 +50,9 @@ body {
 
 /*common*/
 
-/*.banner-goods*/
+/*.banner-video*/
 
-.banner-goods {
+.banner-video {
     position: absolute;
     top: 10rem;
     right: 3rem;
@@ -62,7 +63,7 @@ body {
     cursor: pointer;
 }
 
-.banner-goods-wrap {
+.banner-video-text {
     width: 75%;
     height: 100%;
     background: rgba(15, 15, 16, 1);
@@ -78,47 +79,47 @@ body {
 }
 
 
-.banner-goods:hover .banner-goods-wrap {
+.banner-video:hover .banner-video-text {
     position: absolute;
     left: -75%;
 }
 
-.banner-goods-wrap div {
+.banner-video-text div {
     width: 75%;
     height: 70%;
     display: grid;
     grid-template-rows: 3fr 1fr 1fr;
 }
 
-.banner-goods-wrap div p:first-child {
+.banner-video-text div p:first-child {
     font-size: .75rem;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 1.5rem;
     text-align: center;
     width: 2rem;
     height: 1.5rem;
 }
 
-.banner-goods-wrap div p:last-child {
+.banner-video-text div p:last-child {
     line-height: 1.25rem;
     font-weight: bold;
 }
 
-.banner-goods-wrap div p:last-child span {
+.banner-video-text div p:last-child span {
     font-size: .75rem;
     font-weight: 300;
 }
 
-.banner-goods-wrap img {
+.banner-video-text img {
     animation-duration: 1s;
     animation-name: img-next;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    margin: 0 0 .5rem .5rem;
+    margin: 0 0 .75rem .5rem;
     opacity: .85;
 }
 
-/*banner-goods-wrap img*/
+/*banner-video-wrap img*/
 
 @keyframes img-next {
     from {
@@ -130,7 +131,7 @@ body {
     }
 }
 
-.background-goods {
+.banner-background {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -140,17 +141,17 @@ body {
 }
 
 
-.background-goods video {
-    width:100%;
-    height:100%;
+.banner-background video {
+    width: 100%;
+    height: 100%;
 }
 
-.background-goods p {
-    position:absolute;
-    top:2rem;
-    right:2rem;
-    color:#fff;
-    font-size:1.5rem;
+.banner-background p {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: #fff;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -161,7 +162,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(25, 25, 25, 0)), url(../image/banner/01-hero-mode-ii-desktop@1.41xV2.jpg) no-repeat center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(25, 25, 25, 0)), url(../image/banner/content01-banner-img.jpg) no-repeat center / cover;
     z-index: 1;
 }
 
@@ -171,7 +172,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(16, 16, 16, 0.7), rgba(25, 25, 25, 0)), url(../image/banner/Monitor-II-ANC_PDP_Hero_Desktop.jpg) no-repeat center / cover;
+    background: linear-gradient(rgba(16, 16, 16, 0.7), rgba(25, 25, 25, 0)), url(../image/banner/content02-banner-img.jpg) no-repeat center / cover;
     z-index: 1;
 }
 
@@ -181,31 +182,14 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(16, 16, 16, 0.7), rgba(25, 25, 25, 0)), url(../image/banner/marshall-stockwell-ii-hero-Desktop@1.41x.jpg) no-repeat center / cover;
+    background: linear-gradient(rgba(16, 16, 16, 0.7), rgba(25, 25, 25, 0)), url(../image/banner/content03-banner-img.jpg) no-repeat center / cover;
     z-index: 1;
 }
-
-.banner-title {
-    width: 100%;
-    height: 10rem;
-    line-height: 10rem;
-    position: absolute;
-    left: 10rem;
-    top: 8rem;
-    font-size: 10rem;
-    font-weight: bold;
-    color: transparent;
-    -webkit-text-stroke: .1rem rgba(255, 255, 255, .2);
-    overflow: hidden;
-    z-index: 1;
-}
-
-
 
 
 .banner-goods-text {
     width: 30rem;
-    height: 13rem;
+    height: 20rem;
     position: absolute;
     top: 25rem;
     left: 10rem;
@@ -215,25 +199,32 @@ body {
 }
 
 .banner-goods-text p {
-    font-size: 1rem;
-    line-height: 2rem;
-    text-align: left;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: bold;
 }
 
 .banner-goods-text span {
-    font-size: 2.75rem;
-    line-height: 2.75rem;
-    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+}
+
+.banner-content03 > .banner-goods-text p span {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    display: inline-block;
+    margin-top: 1.5rem;
 }
 
 .banner-goods-text button {
     border: 1px solid #fff;
     background: none;
-    width: 10rem;
-    height: 2.5rem;
+    width: 12rem;
+    height: 3rem;
     font-weight: bold;
     color: #fff;
-    font-size: .75rem;
+    font-size: .85rem;
     letter-spacing: .05rem;
     position: absolute;
     left: 0;
