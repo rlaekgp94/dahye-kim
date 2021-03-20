@@ -232,3 +232,24 @@ body {
     border-radius: 10rem;
     cursor: pointer;
 }
+
+
+
+
+
+.swiper-pagination-bullet {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 20px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .35);
+    opacity: 1;
+    background-color:transparent;
+    text-align: left;
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    font-size: 1.5rem;
+}

@@ -164,10 +164,10 @@
 }
 
 .swiper-button-prev {    
-    left:3rem;
+    left:10rem;
 }
 .swiper-button-next {    
-    left:7rem;
+    left:14rem;
 }
 .swiper-button-next,
 .swiper-button-prev {
@@ -239,7 +239,7 @@
     text-align: center;
     transition: .3s opacity;
     transform: translate3d(0, 0, 0);
-    transform:rotate(90deg);
+/*    transform:rotate(90deg);*/
     z-index: 10;
 }
 
@@ -250,9 +250,13 @@
 .swiper-container-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-    bottom: 10px;
-    left: 0;
-    width: 100%;
+    /*page number*/
+    top: 16.85rem;
+    left: 3rem;
+    width: 3rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .swiper-pagination-bullets-dynamic {
@@ -290,10 +294,9 @@
 }
 
 .swiper-pagination-bullet {
-    width: 8px;
-    height: 8px;
+    width: 3rem;
+    height: 3rem;
     display: inline-block;
-    border-radius: 50%;
     background: #000;
     opacity: .2
 }
@@ -305,7 +308,7 @@ button.swiper-pagination-bullet {
     box-shadow: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none
+    appearance: none;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -380,10 +383,10 @@ button.swiper-pagination-bullet {
 .swiper-container-horizontal > .swiper-pagination-progressbar,
 .swiper-container-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
     /*위치*/
-    width: 10rem;
+    width: 30%;
     height: 4px;
-    left: -1.5rem;
-    top:50%;
+    left: 10rem;
+    bottom:3rem;
 }
 
 .swiper-container-horizontal > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
