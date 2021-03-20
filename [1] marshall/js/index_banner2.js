@@ -7,7 +7,7 @@ $(document).ready(function () {
         loop: true,
         effect: 'fade',
         autoplay: {
-            delay: 6000,
+            delay: 5000,
             disableOnInteraction: false,
         },
         pagination: {
@@ -17,10 +17,19 @@ $(document).ready(function () {
                 return '<span class="' + className + '">' + myArray[index + 1] + '</span>';
             },
         },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    $(".swiper-container").each(function (elem, target) {
+        var swp = target.swiper;
+        $(".banner-video, .banner-goods-text button").hover(function () {
+            swp.autoplay.stop();
+        }, function () {
+            swp.autoplay.start();
+        });
     });
 
 
