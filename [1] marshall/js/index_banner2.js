@@ -1,9 +1,11 @@
 $(document).ready(function () {
 
+    
+    //main banner swiper
     var myArray = ["01", "01", "02", "03"];
 
 
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.swiper-main-banner', {
         loop: true,
         effect: 'fade',
         autoplay: {
@@ -23,7 +25,7 @@ $(document).ready(function () {
         },
     });
 
-    $(".swiper-container").each(function (elem, target) {
+    $(".swiper-main-banner").each(function (elem, target) {
         var swp = target.swiper;
         $(".banner-video, .banner-goods-text button").hover(function () {
             swp.autoplay.stop();

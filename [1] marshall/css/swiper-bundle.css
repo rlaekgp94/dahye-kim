@@ -383,10 +383,10 @@ button.swiper-pagination-bullet {
 .swiper-container-horizontal > .swiper-pagination-progressbar,
 .swiper-container-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
     /*위치*/
-    width: 30%;
+    width:70%;
     height: 4px;
-    left: 10rem;
-    bottom:3rem;
+    left: 0;
+    bottom:0;
 }
 
 .swiper-container-horizontal > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
