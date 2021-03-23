@@ -82,7 +82,7 @@ section {
 
 .section02 {
     width:100%;
-    height:42.5rem;
+    height:100%;
     position:relative;
     display: flex;
     justify-content: center;
@@ -116,7 +116,7 @@ section {
     background: rgba(15, 15, 16, 1);
     box-shadow: 0 1rem 1rem rgba(15, 15, 16, .3);
     width:22.5%;
-    height:80%;
+    height:70%;
     position:absolute;
     top:50%;
     right:8%;
@@ -165,16 +165,14 @@ section {
 .shop-button button {
     position:absolute;
     bottom:0;
-    left:50%;
-    transform: translateX(-50%);
+    left:0;
     background: #fff;
-    width: 12rem;
+    width: 100%;
     height: 3rem;
     font-weight: bold;
     color: #000;
     font-size: .85rem;
     letter-spacing: .05rem;
-    border-radius: 10rem;
     cursor: pointer;
     
 }
@@ -183,7 +181,67 @@ section {
 /*section03*/
 
 .section03 {
-    height:40rem;
-    border:1px solid red;
+    height:9rem;
 }
 
+.section03 p{
+    font-size:2.5rem;
+    line-height:3rem;
+    color:#fff;
+    text-align: center;
+}
+
+
+/*section04*/
+
+.section04 {
+    height:200rem;
+}
+
+.section04 div {
+    height:45rem;
+}
+
+.items-wrap  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.items-img {
+    transition: all .7s;
+}
+
+.section04-items01-img {
+    background:url(../image/content/section04-items01-01.jpg) no-repeat center / cover ;
+}
+.section04-items01-img:hover {
+    background:url(../image/content/section04-items01-02.jpg) no-repeat center / cover ;
+}
+
+
+.section04-items02-img {
+    background:url(../image/content/section04-items02-01.jpg) no-repeat center / cover ;
+}
+.section04-items02-img:hover {
+    background:url(../image/content/section04-items02-02.jpg) no-repeat center / cover ;
+}
+
+
+.section04-items03-img {
+    background:url(../image/content/section04-items04-01.jpg) no-repeat center / cover ;
+}
+.section04-items03-img:hover {
+    background:url(../image/content/section04-items04-02.jpg) no-repeat center / cover ;
+}
+
+.section04-items04-img {
+    background:url(../image/content/section04-items03-01.jpg) no-repeat center / cover ;
+}
+.section04-items04-img:hover {
+    background:url(../image/content/section04-items03-02.jpg) no-repeat center / cover ;
+}
+
+.section04-items05-img {
+    background:url(../image/content/section04-items03.jpg) no-repeat center / cover ;
+    width:100vw;
+}
