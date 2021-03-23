@@ -1,5 +1,17 @@
 @charset "utf-8";
 
+/*pc 셋팅*/
+
+html {
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(15, 15, 16, 1), rgb(25, 25, 25), rgba(15, 15, 16, 1));
+/*    background: rgba(15, 15, 16, 1);*/
+}
+
+body {
+    font-size: 1rem;
+}
+
 section {
     width: 100vw;
     height: 100vh;
@@ -70,7 +82,7 @@ section {
 
 .section02 {
     width:100%;
-    height:32.5rem;
+    height:42.5rem;
     position:relative;
     display: flex;
     justify-content: center;
@@ -83,30 +95,32 @@ section {
 }
 
 .section02-banner01-img {
-    width:70%;
+    width:100%;
     height:100%;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(25, 25, 25, 0.4)), url(../image/content/swiper-section02-banner01.jpg) no-repeat center / cover;
 }
 
 .section02-banner02-img {
-    width:70%;
+    width:100%;
     height:100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(25, 25, 25, 0.4)), url(../image/content/swiper-section02-banner02.jpg) no-repeat center / cover;
+    background: url(../image/content/swiper-section02-banner02.jpg) no-repeat center / cover;
 }
 
 .section02-banner03-img {
-    width:70%;
+    width:100%;
     height:100%;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(25, 25, 25, 0.3)), url(../image/content/swiper-section02-banner03.jpg) no-repeat center / cover;
 }
 
 .section02-text-wrap {
     background: rgba(15, 15, 16, 1);
-    width:30%;
-    height:100%;
+    box-shadow: 0 1rem 1rem rgba(15, 15, 16, .3);
+    width:22.5%;
+    height:80%;
     position:absolute;
-    bottom:0;
-    right:0;
+    top:50%;
+    right:8%;
+    transform: translateY(-50%);
     z-index: 1;
     color:#fff;
     display: flex;
@@ -120,14 +134,8 @@ section {
     position:relative;
 }
 
-.section02-text p:first-child {
-    font-size:1.5rem;
-    font-weight: bold;
-}
-
-.section02-text p:nth-child(2) {
-    font-size:1rem;
-    line-height:1.5rem;
+.section02-text p {
+    font-size:.85rem;
     position:absolute;
     bottom:5rem;
     left:0;
@@ -135,15 +143,30 @@ section {
     height:15%;
 }
 
-.section02-text p:nth-child(2) span {
-    font-size:.7rem;
+.section02-text .banner01-text01 {
+    font-size:.65rem;
     font-weight: 500;
+    line-height:1rem;
+    position:absolute;
+    bottom:5rem;
+    left:0;    
+}
+
+
+.section02-text span {
+    font-size:.65rem;
+    font-weight: 500;
+    line-height:1rem;
+    position:absolute;
+    bottom:6rem;
+    left:0;    
 }
 
 .shop-button button {
     position:absolute;
     bottom:0;
-    left:0;
+    left:50%;
+    transform: translateX(-50%);
     background: #fff;
     width: 12rem;
     height: 3rem;
