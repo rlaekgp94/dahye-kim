@@ -48,7 +48,7 @@ section {
 }
 .section01-text p {
     font-size:7rem;
-    line-height:5.25rem;
+    line-height:5.2rem;
     display: block;
     font-family: none;
     font-weight: bold;
@@ -56,6 +56,7 @@ section {
 
 .text-animation01 {
     -webkit-text-stroke: .05rem #9d9d9d;
+    color:transparent;
 }
 
 .text-animation02 {
@@ -64,6 +65,7 @@ section {
 
 .text-animation03 {
     -webkit-text-stroke: .05rem #9d9d9d;
+    color:transparent;
 }
 
 .section01-textsub {
