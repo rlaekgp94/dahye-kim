@@ -216,7 +216,7 @@ input[id="menuicon"]:checked + label + .sidebar-wrap {
 
 .sidebar > div {
     width: 85rem;
-    height: 44rem;
+    height:auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -245,9 +245,12 @@ input[id="menuicon"]:checked + label + .sidebar-wrap {
 /*sub_language*/
 .sub_language {
     width: 100%;
+    height:2rem;
     display: flex;
     justify-content: flex-end;
-    flex: .5;
+    position:absolute;
+    top:2rem;
+    right:4rem;
 }
 
 .sub_language > select {
@@ -269,6 +272,7 @@ input[id="menuicon"]:checked + label + .sidebar-wrap {
 /*sub_menu*/
 .sub_menu {
     width: 65rem;
+    height:auto;
     position:absolute;
     top:46%;
 }
