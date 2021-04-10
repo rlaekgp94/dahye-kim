@@ -26,7 +26,7 @@ $(document).ready(function(){
     
     
     //top버튼 - 모바일
-    $(".top-btn-moblie").click(function(){
+    $(".top-btn-mobile").click(function(){
         $("html,body").stop().animate({scrollTop:0},500,"easeOutQuart");
     });
     

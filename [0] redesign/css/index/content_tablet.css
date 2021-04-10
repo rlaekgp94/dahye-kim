@@ -311,8 +311,7 @@ body {
     grid-gap: .5rem;
 }
 
-.todaypick > div {
-}
+.todaypick > div {}
 
 /*pick-top-wrap*/
 
@@ -430,8 +429,3 @@ body {
 .notice ul li a:hover {
     text-decoration: none;
 }
-
-
-
-
-

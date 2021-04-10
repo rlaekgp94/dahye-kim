@@ -26,7 +26,7 @@ body {
     display: none;
 }
 
-.title-moblie {
+.title-mobile {
     display: block;
 }
 
@@ -73,6 +73,11 @@ body {
 }
 
 .search-form-btn img {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.search-form-btn {
+    top: 65%;
+    transform: translate(0, -65%);
 }
