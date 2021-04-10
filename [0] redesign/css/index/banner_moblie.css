@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/*모바일 셋팅*/
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+
+.swiper-container {
+    width: 90vw;
+    height: 90vh;
+    border-radius: 1.5rem;
+}
+
+.slider .swiper-slide > span {
+    font-size: .85rem;
+    top: 25%;
+}
+
+.title-pb {
+    display: none;
+}
+
+.title-moblie {
+    display: block;
+}
+
+.slider .swiper-slide > p {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    top: 29%;
+    -webkit-text-stroke: .05rem #fff;
+}
+
+.slider .swiper-slide > .c-text {
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.slider .swiper-slide div {
+    bottom: 8%;
+    font-size: .5rem;
+}
+
+.slider .swiper-slide div > .goods-name {
+    font-size: .8rem;
+    line-height: 2.5rem;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    display: none;
+}
+
+
+/*검색박스*/
+.search-form {
+    width: 18rem;
+    height: 2.3em;
+    top: 75%;
+}
+
+.search-form input {
+    width: 20rem;
+    text-indent: 1.85rem;
+    font-size: .5rem;
+    line-height: 2.3em;
+}
+
+.search-form-btn img {
+    width: 1.5rem;
+    height: 1.5rem;
+}

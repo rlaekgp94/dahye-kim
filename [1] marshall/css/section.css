@@ -5,7 +5,6 @@
 html {
     font-size: 20px;
     background: linear-gradient(90deg, rgba(15, 15, 16, 1), rgb(25, 25, 25), rgba(15, 15, 16, 1));
-    /*    background: rgba(15, 15, 16, 1);*/
 }
 
 body {
@@ -515,14 +514,14 @@ section {
 }
 
 .editors-wrap {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     display: flex;
 }
 
-.editors-wrap div{
-    width:50%;
-    height:100%;
+.editors-wrap div {
+    width: 50%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -530,42 +529,35 @@ section {
 }
 
 .editors-banner01 {
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 25, 25, 0.2)),  url(../image/content/section06-banner01.png) no-repeat center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 25, 25, 0.2)), url(../image/content/section06-banner01.png) no-repeat center / cover;
     cursor: pointer;
 }
 
 .editors-banner02 {
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 25, 25, 0.2)),  url(../image/content/section06-banner02.jpg) no-repeat center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 25, 25, 0.2)), url(../image/content/section06-banner02.jpg) no-repeat center / cover;
 }
 
 .editors-wrap div div {
-    width:20rem;
-    height:20rem;
+    width: 20rem;
+    height: 20rem;
 }
 
 .editors-wrap div div p {
     font-size: 2rem;
     font-weight: bold;
-    color:#fff;
-    text-align:center;
-    line-height:2.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 2.5rem;
 }
 
 .editors-wrap div div button {
-    outline:none;
-    background:#fff;
-    border:none;
-    width:10rem;
-    height:2.5rem;
-    margin-top:1rem;
-    font-size:.75rem;
+    outline: none;
+    background: #fff;
+    border: none;
+    width: 10rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    font-size: .75rem;
     font-weight: bold;
     cursor: pointer;
 }
-
-
-
-
-
-
-

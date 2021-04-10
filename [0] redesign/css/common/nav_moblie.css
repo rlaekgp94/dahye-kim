@@ -1,0 +1,279 @@
+@charset "utf-8";
+
+/*모바일 셋팅*/
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+
+/*공통 header*/
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*logo*/
+.nav-logo {
+    padding: .1rem 0 0 2rem;
+}
+
+.nav-logo img {
+    width: 7rem;
+    height: auto;
+}
+
+
+/*header icons*/
+.nav-icons li {
+    padding: 0;
+}
+
+.nav-icons li img {
+    width: 1.5rem;
+    height: auto;
+    padding: .45rem;
+}
+
+
+/*m-nav icons*/
+
+.total {
+    display: block;
+}
+
+
+.m-menu .menu-icons {
+    width: 1.5rem;
+    height: auto;
+    padding: 1.45rem;
+    cursor: pointer;
+}
+
+.m-menu > .menu-x-icons {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+#m-menu {
+    display: none;
+}
+
+.m-sidebar {
+    width: 20rem;
+    height: 100%;
+    background: #151515;
+    position: fixed;
+    top: 0;
+    left: -20rem;
+    z-index: 32;
+    transition: all .35s;
+}
+
+input[id="m-menu"]:checked + label > .menu-icons {
+    opacity: 0;
+}
+
+input[id="m-menu"]:checked + label > .menu-x-icons {
+    opacity: 1;
+    top: 1rem;
+    left: 17rem;
+    z-index: 35;
+    transition: all .35s;
+}
+
+input[id="m-menu"]:checked + label + div {
+    left: 0;
+}
+
+.m-sidebar > .m-side-nav {
+    position: absolute;
+    top: 4.5rem;
+    left: 30%;
+    transform: translateX(-30%);
+    width: 10rem;
+    height: 30rem;
+}
+
+.m-side-nav h2 {
+    font-size: .5rem;
+    position: relative;
+    cursor: pointer;
+    font-weight: 800;
+    margin-bottom: .5rem;
+    border-radius: 30px;
+    width: 4rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    background: #fff;
+    color: #222;
+}
+
+.m-side-nav h3 {
+    color: #dddddd;
+    font-size: 1.05rem;
+    position: relative;
+    cursor: pointer;
+    height: 2.5rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    margin-top: 2rem;
+}
+
+.m-side-nav h4 {
+    color: #dddddd;
+    font-size: 1.05rem;
+    position: relative;
+    cursor: pointer;
+    height: 2.5rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    padding-top: 1rem;
+}
+
+.m-category > div > a {
+    color: #dddddd;
+    font-size: .8rem;
+    font-weight: 500;
+    line-height: 1.35rem;
+    position: relative;
+    display: block;
+    width: 19rem;
+}
+
+.m-category > div > a > em {
+    display: inline-block;
+    padding-right: .5rem;
+}
+
+.m-category > div > ul > li a {
+    color: #aaa;
+    font-size: .7rem;
+    font-weight: 300;
+    line-height: 1rem;
+}
+
+.m-category > div > ul {
+    padding: .4rem 0;
+}
+
+.m-category > div:nth-child(2) > ul > li {
+    text-indent: 1.5rem;
+}
+
+
+/*m-cs-tell*/
+
+.m-category .m-cs-tell {
+    width: 10rem;
+    padding-top: 2.25rem;
+}
+
+.m-category .m-cs-tell span {
+    font-size: 1.05rem;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    line-height: 3rem;
+    color: #aaa;
+}
+
+.m-category .m-cs-tell p {
+    font-size: .5rem;
+    font-weight: 300;
+    line-height: .8rem;
+    color: #aaa;
+}
+
+
+/*m-sns-btn*/
+
+.m-sns-btn {
+    width: 9.7rem;
+    padding-top: .5rem;
+}
+
+.m-sns-btn ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m-sns-btn ul li img {
+    width: 1.5rem;
+    height: 1.5rem;
+    opacity: 0.8;
+}
+
+
+/*menuicon none*/
+input[id="menuicon"] + label + div {
+    display: none;
+}
+
+
+/*fixed btn*/
+.top-btn {
+    display: none;
+}
+
+.search-btn {
+    display: none;
+}
+
+.m-search-btn {
+    display: block;
+    position: absolute;
+    top: 0.7rem;
+    left: 3.5rem;
+    cursor: pointer;
+}
+
+.fixed-btn {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+.top-btn-moblie {
+    border-radius: 30px;
+    box-shadow: 0 0 .2rem #ccc;
+    /*색변경*/
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 5%;
+    right: 1.25rem;
+    z-index: 20;
+    display: block;
+    background-color: #fff;
+    transition: all .35s;
+    text-align: center;
+}
+
+.top-btn-moblie img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+    padding-top: 1px;
+}
+
+
+/*pc-tab nav*/
+.nav-menu {
+    display: none;
+}
+
+.sidebar,.user-x-icons {
+    display: none;
+}

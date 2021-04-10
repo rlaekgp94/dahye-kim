@@ -54,10 +54,10 @@ body {
     overflow: hidden;
 }
 
-/*삭제고민*/
 .content > p:first-child {
     display: none;
 }
+
 
 .case-img > p {
     display: none;
@@ -747,7 +747,7 @@ body {
 .pick-bottom-text-02 {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items:flex-start;
 }
 
 .pick-bottom-text-02 p {
@@ -826,7 +826,7 @@ body {
 .email_check {
     font-size: .65rem;
     position: relative;
-    width: 18.5rem;
+    width:18.5rem;
     display: block;
 }
 

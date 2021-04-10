@@ -1,27 +1,40 @@
-$(document).ready(function() {
-		 		
-		
-		$('.order-name:nth-child(1)').on('mouseenter', function() {
-			$('.order-name.active').removeClass('active');
-			$('.image-wrap li.show').removeClass("show");
-			$('.image-wrap li:nth-child(1)').addClass("show");
-			$('.order-name:nth-child(1)').addClass('active');
-		})
-		$('.order-name:nth-child(2)').on('mouseenter', function() {
-			$('.order-name.active').removeClass('active');
-			$('.image-wrap li.show').removeClass("show");
-			$('.image-wrap li:nth-child(2)').addClass("show");
-			$('.order-name:nth-child(2)').addClass('active');
-		})
-		$('.order-name:nth-child(3)').on('mouseenter', function() {
-			$('.order-name.active').removeClass('active');
-			$('.image-wrap li.show').removeClass("show");
-			$('.image-wrap li:nth-child(3)').addClass("show");
-			$('.order-name:nth-child(3)').addClass('active');
-		})
-		$('.order-name:nth-child(1)').trigger('mouseenter')
-		
+$(document).ready(function () {
 
     
-});
+    //main banner swiper
+    var myArray = ["01", "01", "02", "03"];
 
+
+    var swiper = new Swiper('.swiper-main-banner', {
+        loop: true,
+        effect: 'fade',
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            renderBullet: function (index, className) {
+                return '<span class="' + className + '">' + myArray[index + 1] + '</span>';
+            },
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    $(".swiper-main-banner").each(function (elem, target) {
+        var swp = target.swiper;
+        $(".banner-video, .banner-goods-text button").hover(function () {
+            swp.autoplay.stop();
+        }, function () {
+            swp.autoplay.start();
+        });
+    });
+
+
+
+
+});

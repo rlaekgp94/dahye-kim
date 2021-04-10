@@ -10,18 +10,19 @@ body {
     font-size: 1rem;
 }
 
-footer { 
-    width:100%;
-    height:75vh;
-    background:#000;
+footer {
+    width: 100%;
+    height: 75vh;
+    background: #000;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 .footer-top-wrap {
-    width:100%;
-    height:50vh;
-    background:#000;;
+    width: 100%;
+    height: 50vh;
+    background: #000;
+    ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,29 +31,30 @@ footer {
 .footer-top {
     display: flex;
     width: 92.5vw;
-    height:auto;
+    height: auto;
     justify-content: space-between;
 }
 
 .footer-top div {
-    width:30%;
+    width: 30%;
     overflow: hidden;
 }
 
 .footer-top div p {
-    font-size:1rem;
-    color:#fff;
-    padding-bottom:1rem;
+    font-size: 1rem;
+    color: #fff;
+    padding-bottom: 1.25rem;
 }
+
 .footer-top div span {
-    font-size:.85rem;
-    color:#959595;
+    font-size: .85rem;
+    color: #959595;
 }
 
 .footer-top div ul li a {
-    font-size:.85rem;
-    color:#959595;
-    line-height:1.5rem;
+    font-size: .75rem;
+    color: #959595;
+    line-height: 1.5rem;
 }
 
 .footer-top div ul li a:hover {
@@ -60,8 +62,8 @@ footer {
 }
 
 .subscribe input {
-    width:100%;
-    height:3rem;
+    width: 100%;
+    height: 3rem;
     outline: none;
     border: none;
     font-size: 1rem;
@@ -70,53 +72,51 @@ footer {
 }
 
 .subscribe button {
-    width:100%;
-    height:3rem;
-    outline:none;
-    border:none;
-    background:#393939;
-    font-size:1rem;
+    width: 100%;
+    height: 3rem;
+    outline: none;
+    border: none;
+    background: #222222;
+    font-size: .85rem;
     font-weight: bold;
-    color:#fff;
+    color: #fff;
 }
 
 
 .footer-bottom-wrap {
-    width:100%;
-    height:25vh;
-    background:#000;
-    border-top:1px solid #2a2a2a;
-    display:flex;
+    width: 100%;
+    height: 25vh;
+    background: #000;
+    border-top: 1px solid #2a2a2a;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .footer-bottom {
-    width:70%;
-    height:70%;
-    display:flex;
-    flex-direction:column;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
-.footer-bottom p{
-    color:#fff;
-    text-align:center;
-    font-size:.85rem;
-    
+.footer-bottom p {
+    color: #898989;
+    text-align: center;
+    font-size: .75rem;
+
 }
 
 .safe-payments {
-    width:40%;
-    margin-top:1rem;
+    width: 40%;
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
 }
 
-.safe-payments img{
-    width:40px;
-    height:29px;
+.safe-payments img {
+    width: 40px;
+    height: 29px;
 }
-
-
