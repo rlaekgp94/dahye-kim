@@ -1,13 +1,9 @@
-$(document).ready(function () {
+jQuery(document).ready(function () {
+  jQuery('.category-wrap-tabmenu li a').click(function () {
+      //removing the previous selected menu state
+      jQuery('.category-wrap-tabmenu li').find('a.active').removeClass('active');
+      //adding the state for this parent menu
+      jQuery(this).addClass('active');
 
-    $(window).scroll(function () {
-        var height = $(document).scrollTop(); //실시간으로 스크롤의 높이를 측정
-        if (height > 0) {
-            $('.category-wrap').addClass('fixinner');
-        } else if (height == 0) {
-            $('.category-wrap').removeClass('fixinner');
-        }
-    });
-
-
+  });
 });

@@ -280,7 +280,7 @@ input[id="menuicon"]:checked + label + .sidebar-wrap {
     color: #fff;
     font-size: 2rem;
 }
-
+ 
 
 /*sub_menu-category*/
 
@@ -335,59 +335,5 @@ input[id="menuicon"]:checked + label + .sidebar-wrap {
     bottom: 2rem;
     right: 2.25rem;
     z-index: 2;
-}
-
-.fixed-top-btn {
-    color: #fff;
-    width: 3rem;
-    height: 2rem;
-    display: block;
-    text-align: center;
-    font-size: .8rem;
-    font-weight: 800;
-    cursor: pointer;
-    opacity: 0.6;
-    line-height: 1.5rem;
-}
-
-.fixed-icons::before {
-    background: #fff;
-    width: .05rem;
-    height: 6rem;
-    position: absolute;
-    top: -4rem;
-    left: 50%;
-    transform: translateY(-50%);
-    content: "";
-    opacity: 0.3;
-}
-
-.fixed-icons {
-    width: 3rem;
-    height: 7rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-}
-
-.fixed-icons a {
-    width: 1.5rem;
-    height: 1.5rem;
-    margin: .5rem 0;
-    opacity: 0.6;
-
-}
-
-.icon-facebook {
-    background: url(../image/icons/facebook_icons.png) no-repeat center / contain;
-}
-
-.icon-instagram {
-    background: url(../image/icons/insta_icons.png) no-repeat center / contain;
-}
-
-.icon-pinterest {
-    background: url(../image/icons/pinter_icons.png) no-repeat center / contain;
+    display: none;
 }
