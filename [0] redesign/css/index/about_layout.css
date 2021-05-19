@@ -10,23 +10,6 @@
 @import url("/css/common/nav_mobile.css") all and (max-width: 960px);
 /*nav 모바일 css*/
 
-@import url("/css/index/banner.css");
-/*배너 공통 css*/
-@import url("/css/index/banner_tablet.css") all and (max-width: 1120px);
-/*배너 태블릿 css*/
-@import url("/css/index/banner_mobile.css") all and (max-width: 960px);
-/*배너 모바일 css*/
-
-@import url("/css/common/swiper-bundle.min.css");
-/*슬라이더*/
-
-@import url("/css/index/content.css");
-/*컨텐츠 공통 css*/
-@import url("/css/index/content_tablet.css") all and (max-width: 1120px);
-/*컨텐츠 태블릿 css*/
-@import url("/css/index/content_mobile.css") all and (max-width: 960px);
-/*컨텐츠 모바일 css*/
-
 @import url("/css/common/footer.css");
 /*footer 공통 css*/
 @import url("/css/common/footer_tablet.css") all and (max-width: 1120px);
