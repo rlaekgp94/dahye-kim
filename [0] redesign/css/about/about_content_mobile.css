@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/*모바일 셋팅*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+}
+
+/* section01 */
+.section01 {
+  background-position-x: center;
+}
+
+.section01 p {
+  margin-bottom: 7rem;
+}
+
+.section01 .title-scroll-icon {
+  bottom: 20%;
+}
+
+/* section02 */
+.section02 h2 {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.section02 p {
+  margin: 0 auto;
+  width: 22rem;
+  word-break: keep-all;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.section02 span {
+  margin: 0 auto;
+  width: 20rem;
+  word-break: keep-all;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  font-size: 1rem;
+  margin-bottom: 5rem;
+}
+
+/* section03 */
+.section03 .section03-title {
+  width: 20rem;
+}
+
+.section03 .section03-title img {
+  width: 0.75rem;
+  height: 1.3rem;
+}
+
+.section03 .section03-title h2 {
+  font-size: 1.5rem;
+}
+
+.section03 p {
+  margin: 0 auto;
+  width: 20rem;
+  word-break: keep-all;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  font-size: 0.85rem;
+  margin-bottom: 7rem;
+}
+
+.section03 span {
+  display: none;
+}
+
+.section03-img img:not(:first-child) {
+  display: none;
+}
+.section03-img img:first-child {
+  width: 13rem;
+  height: 13rem;
+}
+.section03-img {
+  width: 13rem;
+  height: 13rem;
+  bottom: 20%;
+}
+
+/* section04 */
+.section04 .section04-wrap {
+  flex-direction: column;
+  width: 20rem;
+  margin-top: 0;
+}
+
+.section04-left img {
+  width: 20rem;
+  height: 20rem;
+  margin-bottom: 2rem;
+}
+
+.section04-left,
+.section04-right {
+  width: 20rem;
+}
+
+.section04-right {
+  margin-top: 0;
+}
+
+/* section05 */
+.section05 .section05-wrap {
+  width: 22rem;
+}
+
+.section05-left h2 {
+  font-size: 1.5rem;
+}
+
+.section05-left .section05-text-01 {
+  font-size: 0.85rem;
+}
+
+.section05-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 20rem;
+  height: 20rem;
+}
+
+/* section06 */
+.section06-store-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 20rem;
+  height: 32rem;
+}
+
+.section06-store {
+  width: 10rem;
+  height: 8rem;
+}
+
+.section06-store .section06-store-info .section06-store_name {
+  margin-bottom: 1rem;
+}

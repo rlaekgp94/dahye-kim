@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+/*테블릿 셋팅*/
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-size: 1rem;
+}
+
+/* .section02 */
+.section02 {
+  font-size: 0.85rem;
+  line-height: 1.8rem;
+}
+
+.section02 h2 {
+  font-size: 2rem;
+}
+
+/* .section03 */
+.section03 {
+  font-size: 0.85rem;
+  line-height: 1.8rem;
+}
+
+.section03-title {
+  width: 37rem;
+}
+
+.section03 h2 {
+  font-size: 1.75rem;
+}
+
+.section03 span {
+  margin-bottom: 0;
+}
+
+.section03-img {
+  width: 34rem;
+}
+
+.section03-img img {
+  width: 10rem;
+  hiehg: 10rem;
+}
+
+/* .section04 */
+.section04 .section04-wrap {
+  width: 50rem;
+}
+
+.section04 .section04-wrap h2 {
+  font-size: 1.35rem;
+}
+
+.section04-left,
+.section04-right {
+  width: 25rem;
+}
+
+.section04-right {
+  margin-top: 6rem;
+}
+
+.section04-left img {
+  width: 25rem;
+  height: 25rem;
+}
+
+.section04-right .section04-text-03 {
+  display: none;
+}
+
+/* section05 */
+.section05 .section05-wrap {
+  flex-direction: column;
+  width: 27rem;
+}
+
+.section05-left {
+  height: 15rem;
+}
+
+.section05-left h2 {
+  background: none;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section05-left .section05-text-01 {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.section05-text-02 {
+  display: none;
+}
+
+.section05-right {
+  height: 10rem;
+  border-top: 0.05rem solid rgba(179, 179, 179, 0.109);
+  padding-top: 3rem;
+}
+
+.section05-right img {
+  margin-top: 0;
+}
+.section05-right img:hover {
+  transform: scale(1);
+}
+
+/* section06 */
+.section06-wrap h2 {
+  font-size: 1.5rem;
+}
+
+.section06-store-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 50rem;
+  height: 25rem;
+}
+
+.section06-store {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+.section06-store .section06-store-info {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.section06-store:hover .section06-store-info {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.section06-store .section06-store-info .section06-store_btn:hover {
+  background: none;
+  color: #fff;
+}
