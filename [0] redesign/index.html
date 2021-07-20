@@ -1,843 +1,923 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>renewal-Printbakery</title>
+    <link rel="stylesheet" href="/css/index/index_layout.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="format-detection" content="telephone=no">
-    <title>Print bakery</title>
-    <link rel="stylesheet" href="/css/index/index_layout.css">
-</head>
-
-<body>
-
+  <body>
     <header>
-        <nav class="nav-wrap">
+      <nav class="nav-wrap">
+        <div class="total">
+          <input type="checkbox" id="m-menu" />
+          <label for="m-menu" class="m-menu">
+            <img
+              src="/image/icons/menu.png"
+              alt="menu-icons"
+              width="20"
+              height="20"
+              class="menu-icons"
+            />
+            <img
+              src="/image/icons/menu-x.png"
+              alt="menu-x-icons"
+              width="30"
+              height="30"
+              class="menu-x-icons"
+            />
+          </label>
 
-            <div class="total">
-
-
-                <input type="checkbox" id="m-menu">
-                <label for="m-menu" class="m-menu">
-                    <img src="/image/icons/menu.png" alt="menu-icons" width="20" height="20" class="menu-icons">
-                    <img src="/image/icons/menu-x.png" alt="menu-x-icons" width="30" height="30" class="menu-x-icons">
-                </label>
-
-
-
-
-                <div class="m-sidebar">
-                    <div class="m-side-nav">
-                        <h2>MY PAGE</h2>
-                        <h3>CATEGORY</h3>
-                        <div class="m-category">
-                            <div><a href="about.html"><em>-</em>About</a></div>
-
-                            <div><a href="about.html"><em>-</em>Store</a>
-
-                                <ul>
-                                    <li><a href="#a">select</a></li>
-                                    <li><a href="#a">limited edition</a></li>
-                                    <li><a href="#a">original</a></li>
-                                    <li><a href="#a">art poster</a></li>
-                                    <li><a href="#a">goods</a></li>
-                                    <li><a href="#a">review</a></li>
-                                </ul>
-                            </div>
-
-                            <div><a href="artist.html"><em>-</em>Artist</a></div>
-                            <div><a href="promotion.html"><em>-</em>Promotion</a></div>
-                            <div><a href="business.html"><em>-</em>Business</a></div>
-
-
-                            <h4>COMMUNITY</h4>
-                            <div><a href="#a"><em>-</em>공지사항</a></div>
-                            <div><a href="#a"><em>-</em>REVIEW</a></div>
-                            <div><a href="#a"><em>-</em>상품 Q&amp;A</a></div>
-                            <div><a href="#a"><em>-</em>FAQ</a></div>
-
-                            <div class="m-cs-tell">
-                                <p>
-                                    <span>1599-3403</span><br>
-                                    MON-FRI 10AM - 5PM<br>
-                                    LUNCH 12PM - 1PM<br>
-                                    SAT, SUN, HOLIDAY OFF
-                                </p>
-                            </div>
-                            <!--
-
-                            <div class="m-sns-btn">
-                                <ul>
-                                    <li><a href="#a"><img src="/image/icons/sns-be.png" alt="비헨스"></a></li>
-                                    <li><a href="#a"><img src="/image/icons/sns-face.png" alt="페이스북"></a></li>
-                                    <li><a href="#a"><img src="/image/icons/sns-insta.png" alt="인스타그램"></a></li>
-                                    <li><a href="#a"><img src="/image/icons/sns-youtu.png" alt="유튜브"></a></li>
-                                </ul>
-                            </div>
--->
-
-                        </div>
-                        <!--모바일 카테고리-->
-                    </div>
-                    <!--모바일 슬라이드 네비-->
-
+          <div class="m-sidebar">
+            <div class="m-side-nav">
+              <h2>MY PAGE</h2>
+              <h3>CATEGORY</h3>
+              <div class="m-category">
+                <div>
+                  <a href="about.html">About</a>
                 </div>
-                <!--모바일 슬라이드바-->
 
-                <label for="m-menu" class="m-menuicon-background"></label>
+                <div>
+                  <a href="about.html">Store</a>
+                </div>
 
+                <div>
+                  <a href="artist.html">Artist</a>
+                </div>
+                <div>
+                  <a href="promotion.html">Promotion</a>
+                </div>
+                <div>
+                  <a href="business.html">Business</a>
+                </div>
 
+                <h4>COMMUNITY</h4>
+                <div>
+                  <a href="#a">공지사항</a>
+                </div>
+                <div>
+                  <a href="#a">REVIEW</a>
+                </div>
+                <div>
+                  <a href="#a">상품 Q&amp;A</a>
+                </div>
+                <div>
+                  <a href="#a">FAQ</a>
+                </div>
+
+                <div class="m-cs-tell">
+                  <p>
+                    <span>1599-3403</span><br />
+                    MON-FRI 10AM - 5PM<br />
+                    LUNCH 12PM - 1PM<br />
+                    SAT, SUN, HOLIDAY OFF
+                  </p>
+                </div>
+              </div>
+              <!--모바일 카테고리-->
             </div>
-            <!--모바일메뉴-->
+            <!--모바일 슬라이드 네비-->
+          </div>
+          <!--모바일 슬라이드바-->
 
+          <label for="m-menu" class="m-menuicon-background"></label>
+        </div>
+        <!--모바일메뉴-->
 
-            <h1 class="nav-logo"><a href="index.html"><img src="/image/logo/logo.png" alt="상단로고" width="140" height="25"></a></h1>
+        <h1 class="nav-logo">
+          <a href="index.html"
+            ><img
+              src="/image/logo/logo.png"
+              alt="상단로고"
+              width="140"
+              height="25"
+          /></a>
+        </h1>
 
-            <ul class="nav-menu">
-                <li>
-                    <a href="about.html">ABOUT</a>
-                </li>
+        <ul class="nav-menu">
+          <li>
+            <a href="about.html">ABOUT</a>
+          </li>
 
-                <li>
-                    <a href="store.html">STORE</a>
-                </li>
+          <li>
+            <a href="store.html">STORE</a>
+          </li>
 
-                <li>
-                    <a href="artist.html">ARTIST</a>
-                </li>
+          <li>
+            <a href="artist.html">ARTIST</a>
+          </li>
 
-                <li>
-                    <a href="promotion.html">PROMOTION</a>
-                </li>
+          <li>
+            <a href="promotion.html">PROMOTION</a>
+          </li>
 
-                <li>
-                    <a href="business.html">BUSINESS</a>
-                </li>
+          <li>
+            <a href="business.html">BUSINESS</a>
+          </li>
+        </ul>
+        <!--nav-menu-->
 
-            </ul>
-            <!--nav-menu-->
+        <ul class="nav-icons">
+          <li>
+            <a href="login.html"
+              ><img
+                src="/image/icons/cart.png"
+                alt="cart-icons"
+                width="25"
+                height="25"
+            /></a>
+          </li>
+          <li>
+            <input type="checkbox" id="menuicon" />
+            <label for="menuicon" class="menuicon">
+              <img
+                src="/image/icons/user.png"
+                alt="user-icons"
+                width="25"
+                height="25"
+                class="user-icons"
+              />
+              <img
+                src="/image/icons/menu-x.png"
+                alt="user-x-icons"
+                width="30"
+                height="30"
+                class="user-x-icons"
+              />
+            </label>
 
-            <ul class="nav-icons">
-                <li><a href="login.html"><img src="/image/icons/cart.png" alt="cart-icons" width="25" height="25"></a></li>
-                <li>
-                    <input type="checkbox" id="menuicon">
-                    <label for="menuicon" class="menuicon">
-                        <img src="/image/icons/user.png" alt="user-icons" width="25" height="25" class="user-icons">
-                        <img src="/image/icons/menu-x.png" alt="user-x-icons" width="30" height="30" class="user-x-icons">
-                    </label>
+            <div class="sidebar">
+              <div class="side-nav">
+                <h2>MY PAGE<em></em></h2>
+                <div class="title">
+                  <input type="radio" name="accordion" id="tit1" />
+                  <label for="tit1">주문 &#47; 배송<em></em></label>
+                  <div>
+                    <ul>
+                      <li><a href="#a">주문내역</a></li>
+                      <li><a href="#a">취소 &#47; 반품 &#47; 교환</a></li>
+                      <li><a href="#a">배송 주소록</a></li>
+                    </ul>
+                  </div>
 
-                    <div class="sidebar">
-                        <div class="side-nav">
-                            <h2>MY PAGE<em></em></h2>
-                            <div class="title">
+                  <input type="radio" name="accordion" id="tit2" />
+                  <label for="tit2">커뮤니티<em></em></label>
+                  <div>
+                    <ul>
+                      <li><a href="#a">공지사항</a></li>
+                      <li><a href="#a">REVIEW</a></li>
+                      <li><a href="#a">상품 Q&amp;A</a></li>
+                      <li><a href="#a">FAQ</a></li>
+                    </ul>
+                  </div>
 
-                                <input type="radio" name="accordion" id="tit1">
-                                <label for="tit1">주문 &#47; 배송<em></em></label>
-                                <div>
-                                    <ul>
-                                        <li><a href="#a">주문내역</a></li>
-                                        <li><a href="#a">취소 &#47; 반품 &#47; 교환</a></li>
-                                        <li><a href="#a">배송 주소록</a></li>
-                                    </ul>
-                                </div>
+                  <input type="radio" name="accordion" id="tit3" />
+                  <label for="tit3">쿠폰 &#47; 적립금<em></em></label>
+                  <div>
+                    <ul>
+                      <li><a href="#a">쿠폰 &#40;0개&#41;</a></li>
+                      <li><a href="#a">적립금 &#40;0원&#41;</a></li>
+                      <li><a href="#a">예치금</a></li>
+                    </ul>
+                  </div>
 
-                                <input type="radio" name="accordion" id="tit2">
-                                <label for="tit2">커뮤니티<em></em></label>
-                                <div>
-                                    <ul>
-                                        <li><a href="#a">공지사항</a></li>
-                                        <li><a href="#a">REVIEW</a></li>
-                                        <li><a href="#a">상품 Q&amp;A</a></li>
-                                        <li><a href="#a">FAQ</a></li>
-                                    </ul>
-                                </div>
+                  <input type="radio" name="accordion" id="tit4" />
+                  <label for="tit4">고객지원센터<em></em></label>
+                  <div>
+                    <ul>
+                      <li><a href="#a">1&#58;1 맞춤상담</a></li>
+                      <li><a href="#a">A&#47;S게시판</a></li>
+                      <li><a href="#a">교환 및 반품</a></li>
+                      <li><a href="#a">이용안내</a></li>
+                      <li><a href="#a">회원혜택</a></li>
+                    </ul>
+                  </div>
+                </div>
 
-                                <input type="radio" name="accordion" id="tit3">
-                                <label for="tit3">쿠폰 &#47; 적립금<em></em></label>
-                                <div>
-                                    <ul>
-                                        <li><a href="#a">쿠폰 &#40;0개&#41;</a></li>
-                                        <li><a href="#a">적립금 &#40;0원&#41;</a></li>
-                                        <li><a href="#a">예치금</a></li>
-                                    </ul>
-                                </div>
-
-                                <input type="radio" name="accordion" id="tit4">
-                                <label for="tit4">고객지원센터<em></em></label>
-                                <div>
-                                    <ul>
-                                        <li><a href="#a">1&#58;1 맞춤상담</a></li>
-                                        <li><a href="#a">A&#47;S게시판</a></li>
-                                        <li><a href="#a">교환 및 반품</a></li>
-                                        <li><a href="#a">이용안내</a></li>
-                                        <li><a href="#a">회원혜택</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <h2 class="cs">CS CENTER<em></em></h2>
-                            <div class="cs-tell">
-
-                                <p>
-                                    <span>1599-3403</span><br>
-                                    MON-FRI 10AM - 5PM<br>
-                                    LUNCH 12PM - 1PM<br>
-                                    SAT, SUN, HOLIDAY OFF
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <label for="menuicon" class="menuicon-background"></label>
-
-                </li>
-                <li class="m-search-btn"><a href="#a"><img src="/image/icons/search.png" alt="검색" width="25" height="25"></a></li>
-            </ul>
-            <!--nav-icons-->
-
-        </nav>
-        <!--nav-wrap-->
+                <h2 class="cs">CS CENTER<em></em></h2>
+                <div class="cs-tell">
+                  <p>
+                    <span>1599-3403</span><br />
+                    MON-FRI 10AM - 5PM<br />
+                    LUNCH 12PM - 1PM<br />
+                    SAT, SUN, HOLIDAY OFF
+                  </p>
+                </div>
+              </div>
+            </div>
+            <label for="menuicon" class="menuicon-background"></label>
+          </li>
+          <li class="m-search-btn">
+            <a href="#a"
+              ><img
+                src="/image/icons/search.png"
+                alt="검색"
+                width="25"
+                height="25"
+            /></a>
+          </li>
+        </ul>
+        <!--nav-icons-->
+      </nav>
+      <!--nav-wrap-->
     </header>
 
-    <p class="top-btn-mobile"><img src="/image/icons/top.png" alt="맨위로" width="25" height="25"></p>
+    <p class="top-btn-mobile">
+      <img src="/image/icons/top.png" alt="맨위로" width="25" height="25" />
+    </p>
 
     <!--모바일 top-btn-->
 
     <div class="fixed-btn">
-        <p class="top-btn"><img src="/image/icons/top.png" alt="맨위로" width="30" height="30"></p>
-        <!--PC/태블릿 top-btn-->
-        <p class="search-btn"><img src="/image/icons/search.png" alt="검색" width="28" height="28"></p>
+      <p class="top-btn">
+        <img src="/image/icons/top.png" alt="맨위로" width="30" height="30" />
+      </p>
+      <!--PC/태블릿 top-btn-->
+      <p class="search-btn">
+        <img src="/image/icons/search.png" alt="검색" width="28" height="28" />
+      </p>
     </div>
 
     <section>
-        <div class="banner">
-            <div class="swiper-container slider">
-                <div class="swiper-wrapper">
+      <div class="banner">
+        <div class="swiper-container slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide bg1">
+              <span>STEEL FLOWER</span>
+              <p class="title-pb">DAVID GERSTEIN</p>
+              <p class="title-mobile">DAVID<br />GERSTEIN</p>
 
-                    <div class="swiper-slide bg1">
-                        <span>STEEL FLOWER</span>
-                        <p class="title-pb">DAVID GERSTEIN</p>
-                        <p class="title-mobile">DAVID<br>GERSTEIN</p>
-
-                        <div>
-                            <p class="goods-name">BRUSSELS BOUQUET</p>
-                            David Gerstein, Brussels bouquet<br>
-                            100x82cm, steel 3layer, Hand painted, ed. 96
-                        </div>
-
-                    </div>
-
-                    <div class="swiper-slide bg2">
-                        <span>FineLittleDay</span>
-                        <p class="title-pb">AIR. WIND. SCENT.</p>
-                        <p class="title-mobile c-text">AIR.<br>WIND.<br>SCENT.</p>
-                        <div>
-                            <p class="goods-name">Elisabeth Dunker</p>
-                            Elisabeth Dunker, POSE POSTER<br>
-                            100x70cm, FSC paper, offset print, open edition
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide bg3">
-                        <span>epilogue</span>
-                        <p class="title-pb">SPRING SERIES</p>
-                        <p class="title-mobile">SPRING<br>SERIES</p>
-                        <div>
-                            <p class="goods-name">&#34;캔버스 위 하얀 눈을 녹이고 피어나는 봄&#34;</p>
-                            Maria Chang, Spring Series, 2020<br>
-                            Mixed media 45.5x53x5cm, Original
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <form class="search-form">
-
-                    <input type="text" placeholder="SEARCH YOUR PRINT" maxlength="20" minlength="2" autofocus autocomplete="off">
-                    <button type="submit" class="search-form-btn"><img src="/image/icons/search.png" alt="검색버튼" width="30" height="30"></button>
-                </form>
-
-
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+              <div>
+                <p class="goods-name">BRUSSELS BOUQUET</p>
+                David Gerstein, Brussels bouquet<br />
+                100x82cm, steel 3layer, Hand painted, ed. 96
+              </div>
             </div>
 
-
-
-
-
-
-        </div>
-
-        <div class="content">
-
-            <p>New Arrival</p>
-
-            <div id="swiper-new" class="swiper-new">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide store1">
-
-
-                        <div>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Bloomers No.7</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Now here</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div>
-                            <div>
-                                <p>A</p>
-                            </div>
-
-                        </div>
-
-                        <div>
-
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Interior with plant, 1967</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div>
-                            <div>
-                                <p>limited<br>edition</p>
-                            </div>
-                            <div class="limied-btn">
-                                <a href="#">veiw more</a>
-                            </div>
-                        </div>
-
-                        <div>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Bloomers No.6</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div>
-
-                            <div>
-                                <p>RECOMMEND</p>
-                            </div>
-
-                        </div>
-                        <div>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>monologue 167, 2020</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Reading Poster</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide store2">
-
-                        <div>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Sérigraphie no. 18, 1988</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>EXAGGERATED</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div>
-
-                            <div class="text-between">
-                                <p>yellow</p>
-                                <p>blue</p>
-                                <p>peari</p>
-                            </div>
-
-                        </div>
-
-                        <div>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Bleu at Gris</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>PARLER SEUL</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div>
-                            <div>
-                                <p>Hand painted, ed.</p>
-                            </div>
-                        </div>
-
-                        <div>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Nocturnal Activities</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Walnut case - 3 style</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-
-                            <p>LAIK residence<br>
-                                CLUB design</p>
-
-                        </div>
-
-                    </div>
-
-                </div>
+            <div class="swiper-slide bg2">
+              <span>FineLittleDay</span>
+              <p class="title-pb">AIR. WIND. SCENT.</p>
+              <p class="title-mobile c-text">AIR.<br />WIND.<br />SCENT.</p>
+              <div>
+                <p class="goods-name">Elisabeth Dunker</p>
+                Elisabeth Dunker, POSE POSTER<br />
+                100x70cm, FSC paper, offset print, open edition
+              </div>
             </div>
 
-        </div>
-
-
-
-        <div class="m-content">
-
-            <p>New Arrival</p>
-
-            <div id="m-swiper-new" class="swiper-new">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide m-store1 m-swiper-slide">
-
-                        <div class="case-img-wrap">
-                            <button type="button" onclick="cart();" class="heart_btn">
-                                <img src="/image/icons/heart.png" alt="좋아요버튼" width="20" height="20" class="heart"></button>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Bloomers No.7</p>
-                                    <div>veiw more</div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="case-img-wrap">
-                            <button type="button" onclick="cart();" class="heart_btn">
-                                <img src="/image/icons/heart.png" alt="좋아요버튼" width="20" height="20" class="heart"></button>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Now here</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="case-img-wrap">
-                            <button type="button" onclick="cart();" class="heart_btn">
-                                <img src="/image/icons/heart.png" alt="좋아요버튼" width="20" height="20" class="heart"></button>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Interior with plant, 1967</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="case-img-wrap">
-                            <button type="button" onclick="cart();" class="heart_btn">
-                                <img src="/image/icons/heart.png" alt="좋아요버튼" width="20" height="20" class="heart"></button>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Bloomers No.6</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="case-img-wrap">
-                            <button type="button" onclick="cart();" class="heart_btn">
-                                <img src="/image/icons/heart.png" alt="좋아요버튼" width="20" height="20" class="heart"></button>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>monologue 167, 2020</p>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-
-
-                    <div class="swiper-slide m-store2 m-swiper-slide">
-
-                        <div class="case-img-wrap">
-                            <button type="button" onclick="cart();" class="heart_btn">
-                                <img src="/image/icons/heart.png" alt="좋아요버튼" width="20" height="20" class="heart"></button>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Sérigraphie no. 18, 1988</p>
-                                    <div>veiw more</div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="case-img-wrap">
-                            <button type="button" onclick="cart();" class="heart_btn">
-                                <img src="/image/icons/heart.png" alt="좋아요버튼" width="20" height="20" class="heart"></button>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>EXAGGERATED</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="case-img-wrap">
-                            <button type="button" onclick="cart();" class="heart_btn">
-                                <img src="/image/icons/heart.png" alt="좋아요버튼" width="20" height="20" class="heart"></button>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Bleu at Gris</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="case-img-wrap">
-                            <button type="button" onclick="cart();" class="heart_btn">
-                                <img src="/image/icons/heart.png" alt="좋아요버튼" width="20" height="20" class="heart"></button>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>PARLER SEUL</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="case-img-wrap">
-                            <button type="button" onclick="cart();" class="heart_btn">
-                                <img src="/image/icons/heart.png" alt="좋아요버튼" width="20" height="20" class="heart"></button>
-                            <a href="#">
-                                <div class="case-img">
-                                    <p>Nocturnal Activities</p>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-            </div>
-
-            <div class="swiper-pagination"></div>
-
-        </div>
-
-
-
-        <div class="promotion">
-
-            <p>Promotion</p>
-            <div class="promo-wrap">
-                <div class="promo-case">
-                    <a href="#">
-                        <div class="promo-case-img">
-                        </div>
-                    </a>
-                    <div class="promo-case-text">
-                        <span>2021.2.25 - 3.21</span>
-                        <p>3月 자기만의 방</p>
-                    </div>
-                </div>
-
-                <div class="promo-case">
-                    <a href="#">
-                        <div class="promo-case-img">
-                        </div>
-                    </a>
-                    <div class="promo-case-text">
-                        <span>2021.2.18 - 3.21</span>
-                        <p>STEEL FLOWER, 데이비드 걸스타인</p>
-                    </div>
-                </div>
-
-                <div class="promo-case">
-                    <a href="#">
-                        <div class="promo-case-img">
-                        </div>
-                    </a>
-                    <div class="promo-case-text">
-                        <span>2021.2.18 - 3.7</span>
-                        <p>하늘하늘 내리는 진달래 꽃비, 김정수</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="webake">
-
-            <p>We Bake</p>
-            <div class="bake-wrap">
-                <div class="bake-case">
-                    <a href="#">
-                        <div class="bake-case-img">
-                        </div>
-                    </a>
-                    <div class="bake-case-text">
-                        <span>Editorial</span>
-                        <p>프린트베이커리가 추천하는 3월 전시</p>
-                    </div>
-                </div>
-
-                <div class="bake-case">
-                    <a href="#">
-                        <div class="bake-case-img">
-                        </div>
-                    </a>
-                    <div class="bake-case-text">
-                        <span>News</span>
-                        <p>프린트베이커리 더현대서울점 그랜드 오픈</p>
-                    </div>
-                </div>
-
-                <div class="bake-case">
-                    <a href="#">
-                        <div class="bake-case-img">
-                        </div>
-                    </a>
-                    <div class="bake-case-text">
-                        <span>News</span>
-                        <p>초대 작가 오명희, '다시, 봄 Again Spring'展 오픈</p>
-                    </div>
-                </div>
-
-                <div class="bake-case">
-                    <a href="#">
-                        <div class="bake-case-img">
-                        </div>
-                    </a>
-                    <div class="bake-case-text">
-                        <span>Editorial</span>
-                        <p>옻칠의 습도-허명욱의 작업실</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="todaypick">
-
-            <div class="pick-top-wrap">
-
-                <div class="pick-top-title">
-                    <p>Today's<br>Pick</p>
-                    <p><img src="/image/icons/round_play.png" alt="재생버튼" width="32" height="32">Video more</p>
-                </div>
-
-                <div class="pick-top-subtitle">
-                    <p>매일 오전 10시, 하루 한 작품<br>
-                        프린트베이커리가 선택한 예술을 소장하세요.<br>
-                        <span>10 a.m. every day, one piece a day.<br>
-                            Collect the art chosen by Print Bakery.</span>
-                    </p>
-                    <p class="epilogue">epilogue<br>
-                        <span>소복이 쌓였던 눈이 녹고<br>
-                            얼굴을 아리는 차가운 공기가 서서히 잦아들며<br>
-                            우리는 벌써 봄을 맞이할 준비를 하고 있습니다.</span>
-                    </p>
-                    <p>ORIGINAL</p>
-                </div>
-
-            </div>
-
-            <div class="pick-center-wrap">
-                <div class="pick-bottom-case-video">
-
-                    <div>
-                        <video src="/video/pick-vedio.mp4" autoplay loop muted></video>
-                    </div>
-
-
-                </div>
-                <div class="pick-bottom-case-img">
-
-                </div>
-            </div>
-
-            <div class="pick-bottom-wrap">
-                <div class="pick-bottom-text-01">
-                    <p><span>장마리아</span><br>Maria Chang</p>
-
-                    <p><span>In Between</span><br>Spring Series, 2020</p>
-
-                    <p><span>EXCLUSIVE</span></p>
-
-                </div>
-                <div class="pick-bottom-text-02">
-                    <p>Maria Chang X M.C HAPOUTIER</p>
-                    <a href="#">BUY NOW</a>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="service">
-
-            <div class="notice">
-                <p>Notice</p>
-                <ul>
-                    <li>2021-02-24<a href="#">[카드혜택] 현대카드 M포인트 100% 사용혜택</a></li>
-                    <li>2021-02-22<a href="#">[EVENT] 엘시티 아티스트 클래스</a></li>
-                    <li>2021-02-15<a href="#">[UPCOMING] 제7회 오픈스튜디오-아트팬데믹</a></li>
-                    <li>2021-02-01<a href="#">[UPCOMING] 박다원, 김정수 신작 출시</a></li>
-                    <li>2020-11-24<a href="#">[UPCOMING] 고영훈 신작 출시</a></li>
-                </ul>
-            </div>
-            <!--notice-->
-
-            <div class="newsletter">
-                <p>Newsletter</p>
-                <p>프린트베이커리 뉴스 배달 서비스. 맛있게 구운 예술 소식을 받아보세요.</p>
-                <p class="email">
-                    <input type="email" class="input_box" placeholder="이메일 주소를 입력하세요" required>
+            <div class="swiper-slide bg3">
+              <span>epilogue</span>
+              <p class="title-pb">SPRING SERIES</p>
+              <p class="title-mobile">SPRING<br />SERIES</p>
+              <div>
+                <p class="goods-name">
+                  &#34;캔버스 위 하얀 눈을 녹이고 피어나는 봄&#34;
                 </p>
-                <!--이메일-->
-                <p class="name">
-                    <input type="text" class="input_box" placeholder="이름을 입력하세요" required>
-                </p>
-                <!--이름-->
-                <span class="email_check">
-                    <input type="checkbox" name="agree" id="chk1" value="1">
-                    <label for="chk1">개인정보취급방침에 동의합니다. </label>
-                    <img src="/image/icons/next_icon.png" alt="button" width="30" height="7">
-                </span>
-                <!--이메일체크-->
+                Maria Chang, Spring Series, 2020<br />
+                Mixed media 45.5x53x5cm, Original
+              </div>
             </div>
-            <!--newsletter-->
+          </div>
+
+          <form class="search-form">
+            <input
+              type="text"
+              placeholder="SEARCH YOUR PRINT"
+              maxlength="20"
+              minlength="2"
+              autofocus
+              autocomplete="off"
+            />
+            <button type="submit" class="search-form-btn">
+              <img
+                src="/image/icons/search.png"
+                alt="검색버튼"
+                width="30"
+                height="30"
+              />
+            </button>
+          </form>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
-        <!--service-->
+      </div>
+
+      <div class="content">
+        <p>New Arrival</p>
+
+        <div id="swiper-new" class="swiper-new">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide store1">
+              <div>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Bloomers No.7</p>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Now here</p>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <div>
+                  <p>A</p>
+                </div>
+              </div>
+
+              <div>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Interior with plant, 1967</p>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <div>
+                  <p>limited<br />edition</p>
+                </div>
+                <div class="limied-btn">
+                  <a href="#">veiw more</a>
+                </div>
+              </div>
+
+              <div>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Bloomers No.6</p>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <div>
+                  <p>RECOMMEND</p>
+                </div>
+              </div>
+              <div>
+                <a href="#">
+                  <div class="case-img">
+                    <p>monologue 167, 2020</p>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Reading Poster</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-slide store2">
+              <div>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Sérigraphie no. 18, 1988</p>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <div class="case-img">
+                    <p>EXAGGERATED</p>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <div class="text-between">
+                  <p>yellow</p>
+                  <p>blue</p>
+                  <p>peari</p>
+                </div>
+              </div>
+
+              <div>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Bleu at Gris</p>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <div class="case-img">
+                    <p>PARLER SEUL</p>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <div>
+                  <p>Hand painted, ed.</p>
+                </div>
+              </div>
+
+              <div>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Nocturnal Activities</p>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Walnut case - 3 style</p>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <p>
+                  LAIK residence<br />
+                  CLUB design
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="m-content">
+        <p>New Arrival</p>
+
+        <div class="swiper-new">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide m-store1 m-swiper-slide">
+              <div class="case-img-wrap">
+                <button type="button" class="heart_btn">
+                  <img
+                    src="/image/icons/heart.png"
+                    alt="좋아요버튼"
+                    width="20"
+                    height="20"
+                    class="heart"
+                  />
+                </button>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Bloomers No.7</p>
+                    <div>veiw more</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="case-img-wrap">
+                <button type="button" class="heart_btn">
+                  <img
+                    src="/image/icons/heart.png"
+                    alt="좋아요버튼"
+                    width="20"
+                    height="20"
+                    class="heart"
+                  />
+                </button>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Now here</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="case-img-wrap">
+                <button type="button" class="heart_btn">
+                  <img
+                    src="/image/icons/heart.png"
+                    alt="좋아요버튼"
+                    width="20"
+                    height="20"
+                    class="heart"
+                  />
+                </button>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Interior with plant, 1967</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="case-img-wrap">
+                <button type="button" class="heart_btn">
+                  <img
+                    src="/image/icons/heart.png"
+                    alt="좋아요버튼"
+                    width="20"
+                    height="20"
+                    class="heart"
+                  />
+                </button>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Bloomers No.6</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="case-img-wrap">
+                <button type="button" class="heart_btn">
+                  <img
+                    src="/image/icons/heart.png"
+                    alt="좋아요버튼"
+                    width="20"
+                    height="20"
+                    class="heart"
+                  />
+                </button>
+                <a href="#">
+                  <div class="case-img">
+                    <p>monologue 167, 2020</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-slide m-store2 m-swiper-slide">
+              <div class="case-img-wrap">
+                <button type="button" class="heart_btn">
+                  <img
+                    src="/image/icons/heart.png"
+                    alt="좋아요버튼"
+                    width="20"
+                    height="20"
+                    class="heart"
+                  />
+                </button>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Sérigraphie no. 18, 1988</p>
+                    <div>veiw more</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="case-img-wrap">
+                <button type="button" class="heart_btn">
+                  <img
+                    src="/image/icons/heart.png"
+                    alt="좋아요버튼"
+                    width="20"
+                    height="20"
+                    class="heart"
+                  />
+                </button>
+                <a href="#">
+                  <div class="case-img">
+                    <p>EXAGGERATED</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="case-img-wrap">
+                <button type="button" class="heart_btn">
+                  <img
+                    src="/image/icons/heart.png"
+                    alt="좋아요버튼"
+                    width="20"
+                    height="20"
+                    class="heart"
+                  />
+                </button>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Bleu at Gris</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="case-img-wrap">
+                <button type="button" class="heart_btn">
+                  <img
+                    src="/image/icons/heart.png"
+                    alt="좋아요버튼"
+                    width="20"
+                    height="20"
+                    class="heart"
+                  />
+                </button>
+                <a href="#">
+                  <div class="case-img">
+                    <p>PARLER SEUL</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="case-img-wrap">
+                <button type="button" class="heart_btn">
+                  <img
+                    src="/image/icons/heart.png"
+                    alt="좋아요버튼"
+                    width="20"
+                    height="20"
+                    class="heart"
+                  />
+                </button>
+                <a href="#">
+                  <div class="case-img">
+                    <p>Nocturnal Activities</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="promotion">
+        <p>Promotion</p>
+        <div class="promo-wrap">
+          <div class="promo-case">
+            <a href="#">
+              <div class="promo-case-img"></div>
+            </a>
+            <div class="promo-case-text">
+              <span>2021.2.25 - 3.21</span>
+              <p>3月 자기만의 방</p>
+            </div>
+          </div>
+
+          <div class="promo-case">
+            <a href="#">
+              <div class="promo-case-img"></div>
+            </a>
+            <div class="promo-case-text">
+              <span>2021.2.18 - 3.21</span>
+              <p>STEEL FLOWER, 데이비드 걸스타인</p>
+            </div>
+          </div>
+
+          <div class="promo-case">
+            <a href="#">
+              <div class="promo-case-img"></div>
+            </a>
+            <div class="promo-case-text">
+              <span>2021.2.18 - 3.7</span>
+              <p>하늘하늘 내리는 진달래 꽃비, 김정수</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="webake">
+        <p>We Bake</p>
+        <div class="bake-wrap">
+          <div class="bake-case">
+            <a href="#">
+              <div class="bake-case-img"></div>
+            </a>
+            <div class="bake-case-text">
+              <span>Editorial</span>
+              <p>프린트베이커리가 추천하는 3월 전시</p>
+            </div>
+          </div>
+
+          <div class="bake-case">
+            <a href="#">
+              <div class="bake-case-img"></div>
+            </a>
+            <div class="bake-case-text">
+              <span>News</span>
+              <p>프린트베이커리 더현대서울점 그랜드 오픈</p>
+            </div>
+          </div>
+
+          <div class="bake-case">
+            <a href="#">
+              <div class="bake-case-img"></div>
+            </a>
+            <div class="bake-case-text">
+              <span>News</span>
+              <p>초대 작가 오명희, '다시, 봄 Again Spring'展 오픈</p>
+            </div>
+          </div>
+
+          <div class="bake-case">
+            <a href="#">
+              <div class="bake-case-img"></div>
+            </a>
+            <div class="bake-case-text">
+              <span>Editorial</span>
+              <p>옻칠의 습도-허명욱의 작업실</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="todaypick">
+        <div class="pick-top-wrap">
+          <div class="pick-top-title">
+            <p>Today's<br />Pick</p>
+            <p>
+              <img
+                src="/image/icons/round_play.png"
+                alt="재생버튼"
+                width="32"
+                height="32"
+              />Video more
+            </p>
+          </div>
+
+          <div class="pick-top-subtitle">
+            <p>
+              매일 오전 10시, 하루 한 작품<br />
+              프린트베이커리가 선택한 예술을 소장하세요.<br />
+              <span
+                >10 a.m. every day, one piece a day.<br />
+                Collect the art chosen by Print Bakery.</span
+              >
+            </p>
+            <p class="epilogue">
+              epilogue<br />
+              <span
+                >소복이 쌓였던 눈이 녹고<br />
+                얼굴을 아리는 차가운 공기가 서서히 잦아들며<br />
+                우리는 벌써 봄을 맞이할 준비를 하고 있습니다.</span
+              >
+            </p>
+            <p>ORIGINAL</p>
+          </div>
+        </div>
+
+        <div class="pick-center-wrap">
+          <div class="pick-bottom-case-video">
+            <div>
+              <video src="/video/pick-vedio.mp4" autoplay loop muted></video>
+            </div>
+          </div>
+          <div class="pick-bottom-case-img"></div>
+        </div>
+
+        <div class="pick-bottom-wrap">
+          <div class="pick-bottom-text-01">
+            <p><span>장마리아</span><br />Maria Chang</p>
+
+            <p><span>In Between</span><br />Spring Series, 2020</p>
+
+            <p><span>EXCLUSIVE</span></p>
+          </div>
+          <div class="pick-bottom-text-02">
+            <p>Maria Chang X M.C HAPOUTIER</p>
+            <a href="#">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="service">
+        <div class="notice">
+          <p>Notice</p>
+          <ul>
+            <li>
+              2021-02-24<a href="#"
+                >[카드혜택] 현대카드 M포인트 100% 사용혜택</a
+              >
+            </li>
+            <li>2021-02-22<a href="#">[EVENT] 엘시티 아티스트 클래스</a></li>
+            <li>
+              2021-02-15<a href="#">[UPCOMING] 제7회 오픈스튜디오-아트팬데믹</a>
+            </li>
+            <li>
+              2021-02-01<a href="#">[UPCOMING] 박다원, 김정수 신작 출시</a>
+            </li>
+            <li>2020-11-24<a href="#">[UPCOMING] 고영훈 신작 출시</a></li>
+          </ul>
+        </div>
+        <!--notice-->
+
+        <div class="newsletter">
+          <p>Newsletter</p>
+          <p>
+            프린트베이커리 뉴스 배달 서비스. 맛있게 구운 예술 소식을 받아보세요.
+          </p>
+          <p class="email">
+            <input
+              type="email"
+              class="input_box"
+              placeholder="이메일 주소를 입력하세요"
+              required
+            />
+          </p>
+          <!--이메일-->
+          <p class="name">
+            <input
+              type="text"
+              class="input_box"
+              placeholder="이름을 입력하세요"
+              required
+            />
+          </p>
+          <!--이름-->
+          <span class="email_check">
+            <input type="checkbox" name="agree" id="chk1" value="1" />
+            <label for="chk1">개인정보취급방침에 동의합니다. </label>
+            <img
+              src="/image/icons/next_icon.png"
+              alt="button"
+              width="30"
+              height="7"
+            />
+          </span>
+          <!--이메일체크-->
+        </div>
+        <!--newsletter-->
+      </div>
+      <!--service-->
     </section>
     <!--section-->
 
     <div class="footer">
-        <div class="footer-round"></div>
+      <div class="footer-round"></div>
 
-        <div class="footer-wrap">
+      <div class="footer-wrap">
+        <div class="footer-left-wrap">
+          <div class="footer-left-top">
+            <p>&copy; printbakery</p>
 
-            <div class="footer-left-wrap">
+            <p>이용약관</p>
 
-                <div class="footer-left-top">
+            <p>개인정보 보호방침</p>
+          </div>
 
-                    <p>&copy; printbakery</p>
-
-                    <p>이용약관</p>
-
-                    <p>개인정보 보호방침</p>
-
-                </div>
-
-                <div class="footer-left-bottom">
-
-                    <p>회사 (주)프린트베이커리 대표 최호준 <span>[03010] 서울특별시 종로구 평창문화로 152 (평창동) 2층</span><br>
-                        사업자번호 428-87-00761 통신판매업 제2017-서울종로-0630호 <span>메일 web_master@printbakery.com</span> <span>전화 1599-3403</span><br>
-                        <span>팩스 02-391-2017</span> <span>개인정보보호책임자 김재경</span> 우리은행 1005-903-219163 <span>호스팅 카페24(주) Site by BATON</span>
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="footer-center-wrap">
-                <div class="footer-center-company">
-                    <p>Company</p>
-                    <ul>
-                        <li><a href="#">회사소개</a></li>
-                        <li><a href="#">매장안내</a></li>
-                        <li><a href="#">제휴문의</a></li>
-                    </ul>
-
-                </div>
-                <div class="footer-center-guide">
-                    <p>Guide</p>
-                    <ul>
-                        <li><a href="#">공지사항</a></li>
-                        <li><a href="#">이용안내</a></li>
-                        <li><a href="#">회원혜택</a></li>
-                    </ul>
-
-                </div>
-            </div>
-
-            <div class="footer-right-wrap">
-
-                <div class="footer-right-sns">
-
-                    <p>FOLLOW US</p>
-
-                    <div>
-
-                        <a href="#"><img src="/image/icons/sns-face.png" alt="페이스북"></a>
-                        <a href="#"><img src="/image/icons/sns-insta.png" alt="인스타그램"></a>
-                        <a href="#"><img src="/image/icons/sns-youtu.png" alt="유튜브"></a>
-                        <a href="#"><img src="/image/icons/sns-be.png" alt="비헨스"></a>
-
-                    </div>
-
-                </div>
-
-
-                <div class="footer-right-select">
-
-                    <select>
-                        <option value="FAMILY SITE">FAMILY SITE</option>
-                        <option value="가나아트 센터">가나아트 센터</option>
-                        <option value="서울옥션">서울옥션</option>
-                        <option value="옥션블루">옥션블루</option>
-                        <option value="장홍아틀리에">장홍아틀리에</option>
-                        <option value="가나아트파크">가나아트파크</option>
-                        <option value="인사아트센터">인사아트센터</option>
-                    </select>
-
-                </div>
-
-
-
-
-
-            </div>
-
+          <div class="footer-left-bottom">
+            <p>
+              회사 (주)프린트베이커리 대표 최호준
+              <span>[03010] 서울특별시 종로구 평창문화로 152 (평창동) 2층</span
+              ><br />
+              사업자번호 428-87-00761 통신판매업 제2017-서울종로-0630호
+              <span>메일 web_master@printbakery.com</span>
+              <span>전화 1599-3403</span><br />
+              <span>팩스 02-391-2017</span>
+              <span>개인정보보호책임자 김재경</span> 우리은행 1005-903-219163
+              <span>호스팅 카페24(주) Site by BATON</span>
+            </p>
+          </div>
         </div>
+
+        <div class="footer-center-wrap">
+          <div class="footer-center-company">
+            <p>Company</p>
+            <ul>
+              <li><a href="#">회사소개</a></li>
+              <li><a href="#">매장안내</a></li>
+              <li><a href="#">제휴문의</a></li>
+            </ul>
+          </div>
+          <div class="footer-center-guide">
+            <p>Guide</p>
+            <ul>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">이용안내</a></li>
+              <li><a href="#">회원혜택</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-right-wrap">
+          <div class="footer-right-sns">
+            <p>FOLLOW US</p>
+
+            <div>
+              <a href="#"
+                ><img src="/image/icons/sns-face.png" alt="페이스북"
+              /></a>
+              <a href="#"
+                ><img src="/image/icons/sns-insta.png" alt="인스타그램"
+              /></a>
+              <a href="#"
+                ><img src="/image/icons/sns-youtu.png" alt="유튜브"
+              /></a>
+              <a href="#"><img src="/image/icons/sns-be.png" alt="비헨스" /></a>
+            </div>
+          </div>
+
+          <div class="footer-right-select">
+            <select>
+              <option value="FAMILY SITE">FAMILY SITE</option>
+              <option value="가나아트 센터">가나아트 센터</option>
+              <option value="서울옥션">서울옥션</option>
+              <option value="옥션블루">옥션블루</option>
+              <option value="장홍아틀리에">장홍아틀리에</option>
+              <option value="가나아트파크">가나아트파크</option>
+              <option value="인사아트센터">인사아트센터</option>
+            </select>
+          </div>
+        </div>
+      </div>
     </div>
     <!--footer-->
-
-
-
 
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
@@ -845,4 +925,5 @@
     <script src="js/banner.js"></script>
     <script src="js/content.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
-</body></html>
+  </body>
+</html>
